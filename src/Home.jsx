@@ -152,7 +152,7 @@ export const Home = () =>{
 
 
       <div className="menu Pusheen">
-        <img src="./src/assets/dex/Pokes/img/Pusheen.png" alt="" />
+        <img src="LaloDex/src/assets/dex/Pokes/img/Pusheen.png" alt="" />
       </div>
 
 
