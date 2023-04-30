@@ -1,0 +1,173 @@
+/* NO MOVER WIDTH: */
+.PokesKanto{
+  width: 100% ;
+  margin: auto;
+  position: absolute;
+  top: 3em;
+}
+
+.Region{
+  font-size: 3em;
+  
+}
+
+/* WIDHT CONTROLA SI HAY OVERFLOW: */
+.PokesKanto-container{
+  /* width:35%; */
+  place-content: center space-around;
+  display: flex;
+  flex-flow: row nowrap;
+  /* justify-content: space-between; */
+  align-items: stretch;
+  transition: all .5s ease;
+}
+
+.Carrousel-img{
+  width: calc( 100% / 270 );
+}
+
+.Carrousel-h2{
+  margin: 2em 0 1.5em;
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 600;
+  color: azure;
+  top: 0;
+}
+
+.CarrouselKanto-h3 h3{
+  width: 170px;
+}
+
+.CarrouselKanto-h3{
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 600;
+  color: azure;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  /* align-items: stretch; */
+  position: absolute;
+  width: 100%;
+  justify-content: space-around;
+  /* right: 14.3em; */
+  top: 0;
+  place-content: center space-around;
+}
+
+
+.CarrouselKanto-num{
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 600;
+  color: azure;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  /* align-items: stretch; */
+  position: absolute;
+  width: 100%;
+  justify-content: space-around;
+  left: 5.3em;
+  top: 0;
+  place-content: center space-around;
+}
+
+/* 
+Si quiero ver     ancho
+1        ------>  600%
+2        ------>  300%
+3        ------>  200%
+4        ------>  150%
+5        ------>  120%
+6        ------>  100% 
+
+Operación patrón
+600 / imgVeo
+*/
+
+
+
+
+
+.Carrousel-btn{
+  width: 3em;
+  height: 3em;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  top: 25%;
+}
+
+.prev{
+  left: 65%;
+  text-align: end;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+.next{
+  right:65%;
+  text-align: end;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: end;
+}
+
+@media screen and (max-width:800px) {
+  
+.Tipo {
+  margin-left: 0px !important;
+}
+
+
+.PokesKanto{
+
+  top: 3em;
+}
+
+.CarrouselKanto {
+  height: 28%;
+}
+
+.Region{
+  font-size: 2em;
+}
+
+.TipoDebContainer{
+  font-size: 0.5em;
+}
+
+.Anterior{
+  width: 10%;
+  height: 15em;
+}
+
+.Siguiente{
+  width: 10%;
+  height: 15em;
+  left: 170px;
+}
+
+.Carrousel-num{
+  font-size: 0.5em;
+
+}
+
+.Carrousel-h3{
+  font-size: 0.5em;
+
+}
+
+}

@@ -1,0 +1,61 @@
+/* NO MOVER WIDTH: */
+  .Esqueleto{
+    width: 100% ;
+    /* background-color: red; */
+    margin: auto;
+    /* overflow: hidden; */
+    position: relative;
+  }
+  
+/* WIDHT CONTROLA SI HAY OVERFLOW: */
+  .Esqueleto-container{
+  /* width:35%; */
+  place-content: center space-around;
+  display: flex;
+  flex-flow: row nowrap;
+  /* justify-content: space-between; */
+  align-items: stretch;
+  transition: all .5s ease;
+  }
+
+  .Esqueleto-img{
+    width: calc( 100% / 270 );
+  }
+
+  .Esqueleto-btn{
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    top: 2%;
+  }
+  
+  .prev{
+    left: 65%;
+    text-align: end;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .next{
+    right:65%;
+    text-align: end;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .botones{
+    z-index: 2;
+  }

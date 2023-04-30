@@ -1,0 +1,169 @@
+.CarrouselDevice{
+    width: 60% ;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+.AllDex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .CarrouselKanto{
+    width: 60% ;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    height: 90%;
+  }
+
+  .Carrousel-container{
+    width:200%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    transition: all .5s ease;
+  }
+
+
+.Botones{
+  width: 48em;
+  height: 33em;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.Anterior{
+  left: 0;
+  position: absolute;
+  height: 40em;
+  background-color: transparent;
+  width: 30%;
+}
+
+.Siguiente{
+  right: 0;
+  position: absolute;
+  height: 40em;
+  background-color: transparent;
+  width: 30%;
+}
+
+.Region{
+  font-size: 5em;
+  font-weight: bolder;
+  height: 50px;
+  margin: 35px 0;
+}
+
+.TipoDeb img{
+  width: 10%;
+}
+
+.TypeDeb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CarrouselTypeDeb{
+  width: 100% ;
+  margin: auto;
+  position: absolute;
+  overflow: hidden;
+  top: 20%;
+  left: 2%;
+}
+
+.Carrousel-TypeDeb{
+  width:200%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  transition: all .5s ease;
+}
+
+.Debilidad{
+}
+
+.Carrousel-num{
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 600;
+  color: azure;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  /* align-items: stretch; */
+  position: absolute;
+  width: 100%;
+  justify-content: space-around;
+  left: 5.1em;
+  /* top: 0; */
+  place-content: center space-around;
+}
+
+.Carrousel-h3{
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 600;
+  color: azure;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  /* align-items: stretch; */
+  position: absolute;
+  width: 100%;
+  justify-content: space-around;
+  /* right: 14.3em; */
+  /* top: 0; */
+  place-content: center space-around;
+}
+
+/* Regla de tres para elegir el tamaño correcto para carrousel 
+  (#dex*270) / 151
+*/
+.Esqueleto-johto{
+  /* width: calc( 100% / 178.80 ); */
+}
+
+
+.Carrousel-imgJohto{
+  /* width: calc( 100% / 178.80 ); */
+}
+
+.Carrousel-imgHoenn{
+  width: calc( 100% / 241.39 );
+}
+
+.Esqueleto-Hoenn{
+  width: calc( 100% / 241.39 );
+}
+
+.Carrousel-imgSinnoh{
+  width: calc( 100% / 191.32 );
+}
+
+.Esqueleto-Sinnoh{
+  width: calc( 100% / 191.32 );
+}
+
+/* ================================================ */
+
+
+.CarrouselTypeJohto{
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  left: 2%;
+  overflow: hidden;
+}
+
+.Carrousel-h3 h3{
+  width: 170px;
+}
