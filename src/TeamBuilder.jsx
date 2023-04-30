@@ -33,37 +33,37 @@ export const TeamBuilder = () => {
 
   const [mostrarDiv1, setMostrarDiv1] = useState(false)
   const handleClick1 = () => {setMostrarDiv1(!mostrarDiv1);
-    const boton1 = document.querySelector('.BotonAdd1');
+    const boton1 = document.querySelector('.image1');
      boton1.classList.add('oculto');
   }
 
   const [mostrarDiv2, setMostrarDiv2] = useState(false)
   const handleClick2 = () => {setMostrarDiv2(!mostrarDiv2);
-    const boton2 = document.querySelector('.BotonAdd2');
+    const boton2 = document.querySelector('.image2');
      boton2.classList.add('oculto');
   }
 
   const [mostrarDiv3, setMostrarDiv3] = useState(false)
   const handleClick3 = () => {setMostrarDiv3(!mostrarDiv3);
-    const boton3 = document.querySelector('.BotonAdd3');
+    const boton3 = document.querySelector('.image3');
      boton3.classList.add('oculto');
   }
 
   const [mostrarDiv4, setMostrarDiv4] = useState(false)
   const handleClick4 = () => {setMostrarDiv4(!mostrarDiv4);
-    const boton4 = document.querySelector('.BotonAdd4');
+    const boton4 = document.querySelector('.image4');
      boton4.classList.add('oculto');
   }
 
   const [mostrarDiv5, setMostrarDiv5] = useState(false)
   const handleClick5 = () => {setMostrarDiv5(!mostrarDiv5);
-    const boton5 = document.querySelector('.BotonAdd5');
+    const boton5 = document.querySelector('.image5');
      boton5.classList.add('oculto');
   }
 
   const [mostrarDiv6, setMostrarDiv6] = useState(false)
   const handleClick6 = () => {setMostrarDiv6(!mostrarDiv6);
-    const boton6 = document.querySelector('.BotonAdd6');
+    const boton6 = document.querySelector('.image6');
      boton6.classList.add('oculto');
   }
 
@@ -488,7 +488,7 @@ const debilyfuerte = indices.forEach((index) => {
 
         {/* ============================1================================== */}
         <div className='BotonDiv'>
-          <button className='BotonAdd1 BotonAdd'>
+          <button className='BotonAdd'>
             <img
               id='img-categoria'
               src='../src/assets/dex/Pokes/icons8-plus-512.png'
@@ -534,7 +534,7 @@ const debilyfuerte = indices.forEach((index) => {
 
         {/* ============================2================================== */}
         <div className='BotonDiv'>
-          <button className='BotonAdd2 BotonAdd'>
+          <button className='BotonAdd'>
             <img
               id='img-categoria'
               src='../src/assets/dex/Pokes/icons8-plus-512.png'
@@ -580,7 +580,7 @@ const debilyfuerte = indices.forEach((index) => {
 
         {/* ============================3================================== */}
         <div className='BotonDiv'>
-          <button className='BotonAdd3 BotonAdd'>
+          <button className='BotonAdd'>
             <img
               id='img-categoria'
               src='../src/assets/dex/Pokes/icons8-plus-512.png'
@@ -627,7 +627,7 @@ const debilyfuerte = indices.forEach((index) => {
 
         {/* ============================4================================== */}
         <div className='BotonDiv'>
-          <button className='BotonAdd4 BotonAdd'>
+          <button className='BotonAdd'>
             <img
               id='img-categoria'
               src='../src/assets/dex/Pokes/icons8-plus-512.png'
@@ -670,7 +670,7 @@ const debilyfuerte = indices.forEach((index) => {
 
         {/* ============================5================================== */}
         <div className='BotonDiv'>
-          <button className='BotonAdd5 BotonAdd'>
+          <button className='BotonAdd'>
             <img
               id='img-categoria'
               src='../src/assets/dex/Pokes/icons8-plus-512.png'
@@ -713,7 +713,7 @@ const debilyfuerte = indices.forEach((index) => {
 
         {/* ============================6================================== */}
         <div className='BotonDiv'>
-          <button className='BotonAdd6 BotonAdd'>
+          <button className='BotonAdd'>
             <img
               id='img-categoria'
               src='../src/assets/dex/Pokes/icons8-plus-512.png'
