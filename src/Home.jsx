@@ -152,7 +152,7 @@ export const Home = () =>{
 
 
       <div className="menu Pusheen">
-        <img src="/media/Pusheen.png" alt="" />
+        <img src="/Pusheen.png" alt="" />
       </div>
 
 
