@@ -152,7 +152,7 @@ export const Home = () =>{
 
 
       <div className="menu Pusheen">
-        <img src="/Pusheen.png" alt="" />
+        <img src="/media/Pusheen.png" alt="" />
       </div>
 
 
@@ -206,7 +206,7 @@ export const Home = () =>{
 
     </header>
 
-        <h1 className="pokeletra">Bienvenido Entrenador..</h1>
+        <h1 className="pokeletra">Bienvenido Entrenador...</h1>
 
             <div className="titulo">
 
