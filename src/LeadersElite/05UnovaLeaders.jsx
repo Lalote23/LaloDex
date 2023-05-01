@@ -152,7 +152,7 @@ export const UnovaLeaders = () => {
   return (
     <div className="GymLeaders">
       <img
-        src="../src/assets/dex/Pokes/img/Regiones/05Unova.png"
+        src="media/dex/Pokes/img/Regiones/05Unova.png"
         onClick={handleClickUnova}
         alt="Imagen"
       />

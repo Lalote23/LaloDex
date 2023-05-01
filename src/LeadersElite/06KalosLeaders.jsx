@@ -152,7 +152,7 @@ export const KalosLeaders = () => {
   return (
     <div className="GymLeaders">
       <img
-        src="../src/assets/dex/Pokes/img/Regiones/06Kalos.png"
+        src="media/dex/Pokes/img/Regiones/06Kalos.png"
         onClick={handleClickKalos}
         alt="Imagen"
       />

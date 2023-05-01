@@ -155,7 +155,7 @@ export const KantoLeaders = () => {
   return (
     <div className="GymLeaders">
       <img
-        src="../src/assets/dex/Pokes/img/Regiones/01Kanto.png"
+        src="media/dex/Pokes/img/Regiones/01Kanto.png"
         onClick={handleClickKanto}
         alt="Imagen"
       />

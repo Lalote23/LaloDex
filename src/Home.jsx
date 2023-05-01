@@ -245,7 +245,7 @@ export const Home = () =>{
     <div class="fmcircle_out">
         <div class="fmcircle_border">
           <div class="fmcircle_in fmcircle_blue">
-            <span>NationalDex</span><img src="./src/assets/dex/Pokes/img/Regiones/pokeball.png" alt="" />
+            <span>NationalDex</span><img src="media/pokeball.png" alt="" />
           </div>
         </div>
     </div>
@@ -257,7 +257,7 @@ export const Home = () =>{
     <div class="fmcircle_out">
         <div class="fmcircle_border">
           <div class="fmcircle_in fmcircle_green">
-            <span>Team Builder</span><img src="./src/assets/dex/Pokes/img/Regiones/ultraball_hisui.png" alt="" />
+            <span>Team Builder</span><img src="media/ultraball_hisui.png" alt="" />
           </div>
         </div>
     </div>
@@ -269,7 +269,7 @@ export const Home = () =>{
     <div class="fmcircle_out">
         <div class="fmcircle_border">
           <div class="fmcircle_in fmcircle_red">
-            <span>Gym Leaders</span><img src="./src/assets/dex/Pokes/img/Regiones/beastball.png" alt="beastball" />
+            <span>Gym Leaders</span><img src="media/beastball.png" alt="beastball" />
           </div>
         </div>
     </div>

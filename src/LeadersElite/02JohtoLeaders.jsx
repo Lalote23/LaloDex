@@ -152,7 +152,7 @@ export const JohtoLeaders = () => {
   return (
     <div className="GymLeaders">
       <img
-        src="../src/assets/dex/Pokes/img/Regiones/02Johto.png"
+        src="media/dex/Pokes/img/Regiones/02Johto.png"
         onClick={handleClickJohto}
         alt="Imagen"
       />

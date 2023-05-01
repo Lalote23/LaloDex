@@ -152,7 +152,7 @@ export const HoennLeaders = () => {
   return (
     <div className="GymLeaders">
       <img
-        src="../src/assets/dex/Pokes/img/Regiones/03Hoenn.png"
+        src="media/dex/Pokes/img/Regiones/03Hoenn.png"
         onClick={handleClickHoenn}
         alt="Imagen"
       />

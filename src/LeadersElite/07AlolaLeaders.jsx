@@ -152,7 +152,7 @@ export const AlolaLeaders = () => {
   return (
     <div className="GymLeaders">
       <img
-        src="../src/assets/dex/Pokes/img/Regiones/07Alola.png"
+        src="media/dex/Pokes/img/Regiones/07Alola.png"
         onClick={handleClickAlola}
         alt="Imagen"
       />

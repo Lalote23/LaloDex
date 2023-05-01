@@ -211,7 +211,7 @@ export const GalarLeaders = () => {
   return (
     <div className="GymLeaders">
       <img
-        src="../src/assets/dex/Pokes/img/Regiones/08Galar.png"
+        src="media/dex/Pokes/img/Regiones/08Galar.png"
         onClick={handleClickGalar}
         alt="Imagen"
       />

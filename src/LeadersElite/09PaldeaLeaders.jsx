@@ -152,7 +152,7 @@ export const PaldeaLeaders = () => {
   return (
     <div className="GymLeaders">
       <img
-        src="../src/assets/dex/Pokes/img/Regiones/09Paldea.png"
+        src="media/dex/Pokes/img/Regiones/09Paldea.png"
         onClick={handleClickPaldea}
         alt="Imagen"
       />

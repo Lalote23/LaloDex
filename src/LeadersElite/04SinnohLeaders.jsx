@@ -155,7 +155,7 @@ export const SinnohLeaders = () => {
   return (
     <div className="GymLeaders">
       <img
-        src="../src/assets/dex/Pokes/img/Regiones/04Sinnoh.png"
+        src="media/dex/Pokes/img/Regiones/04Sinnoh.png"
         onClick={handleClickSinnoh}
         alt="Imagen"
       />
