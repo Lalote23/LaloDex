@@ -491,7 +491,7 @@ const debilyfuerte = indices.forEach((index) => {
           <button className='BotonAdd'>
             <img
               id='img-categoria'
-              src='../src/assets/dex/Pokes/icons8-plus-512.png'
+              src='media/dex/Pokes/icons8-plus-512.png'
               alt=''
               className='image1'
               onClick={handleClick1} />
@@ -537,7 +537,7 @@ const debilyfuerte = indices.forEach((index) => {
           <button className='BotonAdd'>
             <img
               id='img-categoria'
-              src='../src/assets/dex/Pokes/icons8-plus-512.png'
+              src='media/dex/Pokes/icons8-plus-512.png'
               alt=''
               onClick={handleClick2}
               className='image2' />
@@ -583,7 +583,7 @@ const debilyfuerte = indices.forEach((index) => {
           <button className='BotonAdd'>
             <img
               id='img-categoria'
-              src='../src/assets/dex/Pokes/icons8-plus-512.png'
+              src='media/dex/Pokes/icons8-plus-512.png'
               alt=''
               onClick={handleClick3}
               className='image3' />
@@ -630,7 +630,7 @@ const debilyfuerte = indices.forEach((index) => {
           <button className='BotonAdd'>
             <img
               id='img-categoria'
-              src='../src/assets/dex/Pokes/icons8-plus-512.png'
+              src='media/dex/Pokes/icons8-plus-512.png'
               alt=''
               onClick={handleClick4}
               className='image4' />
@@ -673,7 +673,7 @@ const debilyfuerte = indices.forEach((index) => {
           <button className='BotonAdd'>
             <img
               id='img-categoria'
-              src='../src/assets/dex/Pokes/icons8-plus-512.png'
+              src='media/dex/Pokes/icons8-plus-512.png'
               alt=''
               onClick={handleClick5}
               className='image5' />
@@ -716,7 +716,7 @@ const debilyfuerte = indices.forEach((index) => {
           <button className='BotonAdd'>
             <img
               id='img-categoria'
-              src='../src/assets/dex/Pokes/icons8-plus-512.png'
+              src='media/dex/Pokes/icons8-plus-512.png'
               alt=''
               onClick={handleClick6}
               className='image6' />

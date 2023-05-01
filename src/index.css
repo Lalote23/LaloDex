@@ -14,6 +14,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body{
+  max-width: 1350px
+}
+
 @charset "UTF-8";
 /*
 
