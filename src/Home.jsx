@@ -206,7 +206,7 @@ export const Home = () =>{
 
     </header>
 
-        <h1 className="pokeletra">Bienvenido Entrenador...</h1>
+        <h1 className="pokeletra">Bienvenido Entrenador..</h1>
 
             <div className="titulo">
 
