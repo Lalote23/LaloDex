@@ -152,7 +152,7 @@ export const Home = () =>{
 
 
       <div className="menu Pusheen">
-        <img src="/react.svg" alt="" />
+        <img src="/Pusheen.png" alt="" />
       </div>
 
 
