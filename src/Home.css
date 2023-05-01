@@ -12,7 +12,7 @@
 
 .texto{
     position: relative;
-    border-image: url(media/dex/Pokes/img/Esqueleto/image.png) 42 round;
+    border-image: url(/public/media/dex/Pokes/img/Esqueleto/image.png) 42 round;
     border-width: 21px;
     border-style: solid;
     padding: 1em;
