@@ -9,14 +9,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
   .CarrouselKanto{
-    width: 60% ;
+    width: 35% ;
     margin: auto;
     overflow: hidden;
     position: absolute;
-    height: 90%;
+    height: 100%;
   }
 
   .Carrousel-container{
@@ -30,8 +31,7 @@
 
 
 .Botones{
-  width: 48em;
-  height: 33em;
+  width: 100%;
   position: absolute;
   top: 0;
   z-index: 1;
@@ -94,7 +94,7 @@
 .Carrousel-num{
   margin: 0;
   font-size: 1.5em;
-  line-height: 1em;
+  line-height: 2em;
   font-weight: 600;
   color: azure;
   display: flex;
@@ -103,7 +103,7 @@
   position: absolute;
   width: 100%;
   justify-content: space-around;
-  left: 5.1em;
+  left: 6em;
   /* top: 0; */
   place-content: center space-around;
 }
@@ -111,7 +111,7 @@
 .Carrousel-h3{
   margin: 0;
   font-size: 1.5em;
-  line-height: 1em;
+  line-height: 2em;
   font-weight: 600;
   color: azure;
   display: flex;
@@ -124,6 +124,62 @@
   /* top: 0; */
   place-content: center space-around;
 }
+
+
+@media screen and (max-width:800px){
+  .Carrousel-num{
+    left: 5em;
+    top: .5em;
+  }
+
+  .Carrousel-h3{
+    left: 5em;
+    top: 0.5em;
+  }
+
+  .Botones{
+    height: 12em;
+  }
+}
+
+/* @media screen and (max-width:440px){
+  .Carrousel-num{
+    left: 5em;
+    top: 4em;
+  }
+
+  .Carrousel-h3{
+    left: 6em;
+    top: 4em;
+  }
+
+}
+
+@media screen and (min-width:440px){
+  .Carrousel-num{
+    left: 5em;
+    top: 4em;
+  }
+
+  .Carrousel-h3{
+    left: 6em;
+    top: 4em;
+  }
+
+}
+
+@media screen and (min-width:450px){
+  .Carrousel-num{
+    left: 5em;
+    top: 3.5em;
+  }
+
+  .Carrousel-h3{
+    left: 6em;
+    top: 3.5em;
+  }
+
+} */
 
 /* Regla de tres para elegir el tamaño correcto para carrousel 
   (#dex*270) / 151

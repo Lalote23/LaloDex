@@ -137,9 +137,7 @@ Operación patrón
   top: 3em;
 }
 
-.CarrouselKanto {
-  height: 28%;
-}
+
 
 .Region{
   font-size: 2em;
@@ -155,9 +153,8 @@ Operación patrón
 }
 
 .Siguiente{
-  width: 10%;
+  width: 12%;
   height: 15em;
-  left: 170px;
 }
 
 .Carrousel-num{

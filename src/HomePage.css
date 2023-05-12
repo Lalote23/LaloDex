@@ -190,7 +190,7 @@ button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.
    }
 
    button:hover:not(.box) {
-    color: #000000;
+    color: #a09595;
    }
    
    button:hover::before {
@@ -285,7 +285,6 @@ button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.
   }
   
   button {
-    color: black;
     text-decoration: none;
     cursor: pointer;
     outline: none;
