@@ -24,7 +24,8 @@ export const Esqueleto = ({ imagenes }) => {
               <img 
                 key={ imagen.id  }
                 { ...imagen }
-                className="Esqueleto-img" />
+                    loading="lazy"
+                    className="Esqueleto-img" />
                
               )}
           </div>

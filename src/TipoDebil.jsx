@@ -19,21 +19,21 @@ export const Kanto = ({TipoDeb}) => {
             <p>{imagen.num}</p>
             <div className="Tipo" >
               <h2>Tipo:</h2>
-              <img src={imagen.tipo1}/>
-              <img src={imagen.tipo2}/>
+              <img src={imagen.tipo1} loading="lazy"/>
+              <img src={imagen.tipo2} loading="lazy"/>
             </div>
   
             <div className='TyD'>
             <div className="Fuerte">
             <h2>Fuerte contra:</h2>
-              <img src={imagen.fuerte1} alt={imagen.fuerte1} />
-              <img src={imagen.fuerte2} alt={imagen.fuerte2} />
-              <img src={imagen.fuerte3} alt={imagen.fuerte3} />
-              <img src={imagen.fuerte4} alt={imagen.fuerte4} />
-              <img src={imagen.fuerte5} alt={imagen.fuerte5} />
-              <img src={imagen.fuerte6} alt={imagen.fuerte6} />
-              <img src={imagen.fuerte7} alt={imagen.fuerte7} />
-              <img src={imagen.fuerte8} alt={imagen.fuerte8} />
+              <img src={imagen.fuerte1} alt={imagen.fuerte1} loading="lazy"/>
+              <img src={imagen.fuerte2} alt={imagen.fuerte2} loading="lazy"/>
+              <img src={imagen.fuerte3} alt={imagen.fuerte3} loading="lazy"/>
+              <img src={imagen.fuerte4} alt={imagen.fuerte4} loading="lazy"/>
+              <img src={imagen.fuerte5} alt={imagen.fuerte5} loading="lazy"/>
+              <img src={imagen.fuerte6} alt={imagen.fuerte6} loading="lazy"/>
+              <img src={imagen.fuerte7} alt={imagen.fuerte7} loading="lazy"/>
+              <img src={imagen.fuerte8} alt={imagen.fuerte8} loading="lazy"/>
 
   
   
@@ -41,12 +41,12 @@ export const Kanto = ({TipoDeb}) => {
   
             <div className="Debilidad">
             <h2>Débil contra:</h2>
-              <img src={imagen.debil1} alt={imagen.debil1} />
-              <img src={imagen.debil2} alt={imagen.debil2} />
-              <img src={imagen.debil3} alt={imagen.debil3} />
-              <img src={imagen.debil4} alt={imagen.debil4} />
-              <img src={imagen.debil5} alt={imagen.debil5} />
-              <img src={imagen.debil6} alt={imagen.debil6} />
+              <img src={imagen.debil1} alt={imagen.debil1} loading="lazy"/>
+              <img src={imagen.debil2} alt={imagen.debil2} loading="lazy"/>
+              <img src={imagen.debil3} alt={imagen.debil3} loading="lazy"/>
+              <img src={imagen.debil4} alt={imagen.debil4} loading="lazy"/>
+              <img src={imagen.debil5} alt={imagen.debil5} loading="lazy"/>
+              <img src={imagen.debil6} alt={imagen.debil6} loading="lazy"/>
 
   
   
@@ -78,41 +78,41 @@ export const Kanto = ({TipoDeb}) => {
               <p>{imagen.num}</p>
               <div className="Tipo" >
                 <h2>Tipo:</h2>
-                <img src={imagen.tipo1}/>
-                <img src={imagen.tipo2}/>
+                <img src={imagen.tipo1} loading="lazy"/>
+                <img src={imagen.tipo2} loading="lazy"/>
               </div>
     
               <div className='TyD'>
               <div className="Fuerte">
               <h2>Fuerte contra:</h2>
-                <img src={imagen.fuerte1} alt={imagen.fuerte1} />
-                <img src={imagen.fuerte2} alt={imagen.fuerte2} />
-                <img src={imagen.fuerte3} alt={imagen.fuerte3} />
-                <img src={imagen.fuerte4} alt={imagen.fuerte4} />
-                <img src={imagen.fuerte5} alt={imagen.fuerte5} />
-                <img src={imagen.fuerte6} alt={imagen.fuerte6} />
-                <img src={imagen.fuerte7} alt={imagen.fuerte7} />
-                <img src={imagen.fuerte8} alt={imagen.fuerte8} />
-                <img src={imagen.fuerte9} alt={imagen.fuerte9} />
-                <img src={imagen.fuerte10} alt={imagen.fuerte10} />
-                <img src={imagen.fuerte11} alt={imagen.fuerte11} />
-                <img src={imagen.fuerte12} alt={imagen.fuerte12} />
+                <img src={imagen.fuerte1} alt={imagen.fuerte1} loading="lazy"/>
+                <img src={imagen.fuerte2} alt={imagen.fuerte2} loading="lazy"/>
+                <img src={imagen.fuerte3} alt={imagen.fuerte3} loading="lazy"/>
+                <img src={imagen.fuerte4} alt={imagen.fuerte4} loading="lazy"/>
+                <img src={imagen.fuerte5} alt={imagen.fuerte5} loading="lazy"/>
+                <img src={imagen.fuerte6} alt={imagen.fuerte6} loading="lazy"/>
+                <img src={imagen.fuerte7} alt={imagen.fuerte7} loading="lazy"/>
+                <img src={imagen.fuerte8} alt={imagen.fuerte8} loading="lazy"/>
+                <img src={imagen.fuerte9} alt={imagen.fuerte9} loading="lazy"/>
+                <img src={imagen.fuerte10} alt={imagen.fuerte10} loading="lazy"/>
+                <img src={imagen.fuerte11} alt={imagen.fuerte11} loading="lazy"/>
+                <img src={imagen.fuerte12} alt={imagen.fuerte12} loading="lazy"/>
     
     
                 </div>
     
               <div className="Debilidad">
               <h2>Débil contra:</h2>
-                <img src={imagen.debil1} alt={imagen.debil1} />
-                <img src={imagen.debil2} alt={imagen.debil2} />
-                <img src={imagen.debil3} alt={imagen.debil3} />
-                <img src={imagen.debil4} alt={imagen.debil4} />
-                <img src={imagen.debil5} alt={imagen.debil5} />
-                <img src={imagen.debil6} alt={imagen.debil6} />
-                <img src={imagen.debil7} alt={imagen.debil7} />
-                <img src={imagen.debil8} alt={imagen.debil8} />
-                <img src={imagen.debil9} alt={imagen.debil9} />
-                <img src={imagen.debil10} alt={imagen.debil10} />
+                <img src={imagen.debil1} alt={imagen.debil1} loading="lazy"/>
+                <img src={imagen.debil2} alt={imagen.debil2} loading="lazy"/>
+                <img src={imagen.debil3} alt={imagen.debil3} loading="lazy"/>
+                <img src={imagen.debil4} alt={imagen.debil4} loading="lazy"/>
+                <img src={imagen.debil5} alt={imagen.debil5} loading="lazy"/>
+                <img src={imagen.debil6} alt={imagen.debil6} loading="lazy"/>
+                <img src={imagen.debil7} alt={imagen.debil7} loading="lazy"/>
+                <img src={imagen.debil8} alt={imagen.debil8} loading="lazy"/>
+                <img src={imagen.debil9} alt={imagen.debil9} loading="lazy"/>
+                <img src={imagen.debil10} alt={imagen.debil10} loading="lazy"/>
     
     
             </div>
@@ -143,41 +143,41 @@ export const Kanto = ({TipoDeb}) => {
                 <p>{imagen.num}</p>
                 <div className="Tipo" >
                   <h2>Tipo:</h2>
-                  <img src={imagen.tipo1}/>
-                  <img src={imagen.tipo2}/>
+                  <img src={imagen.tipo1} loading="lazy"/>
+                  <img src={imagen.tipo2} loading="lazy"/>
                 </div>
       
                 <div className='TyD'>
                 <div className="Fuerte">
                 <h2>Fuerte contra:</h2>
-                  <img src={imagen.fuerte1} alt={imagen.fuerte1} />
-                  <img src={imagen.fuerte2} alt={imagen.fuerte2} />
-                  <img src={imagen.fuerte3} alt={imagen.fuerte3} />
-                  <img src={imagen.fuerte4} alt={imagen.fuerte4} />
-                  <img src={imagen.fuerte5} alt={imagen.fuerte5} />
-                  <img src={imagen.fuerte6} alt={imagen.fuerte6} />
-                  <img src={imagen.fuerte7} alt={imagen.fuerte7} />
-                  <img src={imagen.fuerte8} alt={imagen.fuerte8} />
-                  <img src={imagen.fuerte9} alt={imagen.fuerte9} />
-                  <img src={imagen.fuerte10} alt={imagen.fuerte10} />
-                  <img src={imagen.fuerte11} alt={imagen.fuerte11} />
-                  <img src={imagen.fuerte12} alt={imagen.fuerte12} />
+                  <img src={imagen.fuerte1} alt={imagen.fuerte1} loading="lazy"/>
+                  <img src={imagen.fuerte2} alt={imagen.fuerte2} loading="lazy"/>
+                  <img src={imagen.fuerte3} alt={imagen.fuerte3} loading="lazy"/>
+                  <img src={imagen.fuerte4} alt={imagen.fuerte4} loading="lazy"/>
+                  <img src={imagen.fuerte5} alt={imagen.fuerte5} loading="lazy"/>
+                  <img src={imagen.fuerte6} alt={imagen.fuerte6} loading="lazy"/>
+                  <img src={imagen.fuerte7} alt={imagen.fuerte7} loading="lazy"/>
+                  <img src={imagen.fuerte8} alt={imagen.fuerte8} loading="lazy"/>
+                  <img src={imagen.fuerte9} alt={imagen.fuerte9} loading="lazy"/>
+                  <img src={imagen.fuerte10} alt={imagen.fuerte10} loading="lazy"/>
+                  <img src={imagen.fuerte11} alt={imagen.fuerte11} loading="lazy"/>
+                  <img src={imagen.fuerte12} alt={imagen.fuerte12} loading="lazy"/>
       
       
                   </div>
       
                 <div className="Debilidad">
                 <h2>Débil contra:</h2>
-                  <img src={imagen.debil1} alt={imagen.debil1} />
-                  <img src={imagen.debil2} alt={imagen.debil2} />
-                  <img src={imagen.debil3} alt={imagen.debil3} />
-                  <img src={imagen.debil4} alt={imagen.debil4} />
-                  <img src={imagen.debil5} alt={imagen.debil5} />
-                  <img src={imagen.debil6} alt={imagen.debil6} />
-                  <img src={imagen.debil7} alt={imagen.debil7} />
-                  <img src={imagen.debil8} alt={imagen.debil8} />
-                  <img src={imagen.debil9} alt={imagen.debil9} />
-                  <img src={imagen.debil10} alt={imagen.debil10} />
+                  <img src={imagen.debil1} alt={imagen.debil1} loading="lazy"/>
+                  <img src={imagen.debil2} alt={imagen.debil2} loading="lazy"/>
+                  <img src={imagen.debil3} alt={imagen.debil3} loading="lazy"/>
+                  <img src={imagen.debil4} alt={imagen.debil4} loading="lazy"/>
+                  <img src={imagen.debil5} alt={imagen.debil5} loading="lazy"/>
+                  <img src={imagen.debil6} alt={imagen.debil6} loading="lazy"/>
+                  <img src={imagen.debil7} alt={imagen.debil7} loading="lazy"/>
+                  <img src={imagen.debil8} alt={imagen.debil8} loading="lazy"/>
+                  <img src={imagen.debil9} alt={imagen.debil9} loading="lazy"/>
+                  <img src={imagen.debil10} alt={imagen.debil10} loading="lazy"/>
       
       
               </div>
@@ -208,35 +208,35 @@ export const Sinnoh = ({TipoDeb}) => {
             <p>{imagen.num}</p>
             <div className="Tipo">
               <h2>Tipo:</h2>
-              <img src={imagen.tipo1}/>
-              <img src={imagen.tipo2}/>
+              <img src={imagen.tipo1} loading="lazy"/>
+              <img src={imagen.tipo2} loading="lazy"/>
             </div>
 
             <div className='TyD'>
             <div className="Fuerte">
             <h2>Fuerte contra:</h2>
-              <img src={imagen.fuerte1} alt={imagen.fuerte1} />
-              <img src={imagen.fuerte2} alt={imagen.fuerte2} />
-              <img src={imagen.fuerte3} alt={imagen.fuerte3} />
-              <img src={imagen.fuerte4} alt={imagen.fuerte4} />
-              <img src={imagen.fuerte5} alt={imagen.fuerte5} />
-              <img src={imagen.fuerte6} alt={imagen.fuerte6} />
-              <img src={imagen.fuerte7} alt={imagen.fuerte7} />
-              <img src={imagen.fuerte8} alt={imagen.fuerte8} />
-              <img src={imagen.fuerte9} alt={imagen.fuerte9} />
+              <img src={imagen.fuerte1} alt={imagen.fuerte1} loading="lazy"/>
+              <img src={imagen.fuerte2} alt={imagen.fuerte2} loading="lazy"/>
+              <img src={imagen.fuerte3} alt={imagen.fuerte3} loading="lazy"/>
+              <img src={imagen.fuerte4} alt={imagen.fuerte4} loading="lazy"/>
+              <img src={imagen.fuerte5} alt={imagen.fuerte5} loading="lazy"/>
+              <img src={imagen.fuerte6} alt={imagen.fuerte6} loading="lazy"/>
+              <img src={imagen.fuerte7} alt={imagen.fuerte7} loading="lazy"/>
+              <img src={imagen.fuerte8} alt={imagen.fuerte8} loading="lazy"/>
+              <img src={imagen.fuerte9} alt={imagen.fuerte9} loading="lazy"/>
 
               </div>
 
             <div className="Debilidad">
             <h2>Débil contra:</h2>
-              <img src={imagen.debil1} alt={imagen.debil1} />
-              <img src={imagen.debil2} alt={imagen.debil2} />
-              <img src={imagen.debil3} alt={imagen.debil3} />
-              <img src={imagen.debil4} alt={imagen.debil4} />
-              <img src={imagen.debil5} alt={imagen.debil5} />
-              <img src={imagen.debil6} alt={imagen.debil6} />
-              <img src={imagen.debil7} alt={imagen.debil7} />
-              <img src={imagen.debil8} alt={imagen.debil8} />
+              <img src={imagen.debil1} alt={imagen.debil1} loading="lazy"/>
+              <img src={imagen.debil2} alt={imagen.debil2} loading="lazy"/>
+              <img src={imagen.debil3} alt={imagen.debil3} loading="lazy"/>
+              <img src={imagen.debil4} alt={imagen.debil4} loading="lazy"/>
+              <img src={imagen.debil5} alt={imagen.debil5} loading="lazy"/>
+              <img src={imagen.debil6} alt={imagen.debil6} loading="lazy"/>
+              <img src={imagen.debil7} alt={imagen.debil7} loading="lazy"/>
+              <img src={imagen.debil8} alt={imagen.debil8} loading="lazy"/>
 
           </div>
           </div>
@@ -266,41 +266,41 @@ export const TeseliaUnova = ({TipoDeb}) => {
             <p>{imagen.num}</p>
             <div className="Tipo" >
               <h2>Tipo:</h2>
-              <img src={imagen.tipo1}/>
-              <img src={imagen.tipo2}/>
+              <img src={imagen.tipo1} loading="lazy"/>
+              <img src={imagen.tipo2} loading="lazy"/>
             </div>
   
             <div className='TyD'>
             <div className="Fuerte">
             <h2>Fuerte contra:</h2>
-              <img src={imagen.fuerte1} alt={imagen.fuerte1} />
-              <img src={imagen.fuerte2} alt={imagen.fuerte2} />
-              <img src={imagen.fuerte3} alt={imagen.fuerte3} />
-              <img src={imagen.fuerte4} alt={imagen.fuerte4} />
-              <img src={imagen.fuerte5} alt={imagen.fuerte5} />
-              <img src={imagen.fuerte6} alt={imagen.fuerte6} />
-              <img src={imagen.fuerte7} alt={imagen.fuerte7} />
-              <img src={imagen.fuerte8} alt={imagen.fuerte8} />
-              <img src={imagen.fuerte9} alt={imagen.fuerte9} />
-              <img src={imagen.fuerte10} alt={imagen.fuerte10} />
-              <img src={imagen.fuerte11} alt={imagen.fuerte11} />
-              <img src={imagen.fuerte12} alt={imagen.fuerte12} />
+              <img src={imagen.fuerte1} alt={imagen.fuerte1} loading="lazy"/>
+              <img src={imagen.fuerte2} alt={imagen.fuerte2} loading="lazy"/>
+              <img src={imagen.fuerte3} alt={imagen.fuerte3} loading="lazy"/>
+              <img src={imagen.fuerte4} alt={imagen.fuerte4} loading="lazy"/>
+              <img src={imagen.fuerte5} alt={imagen.fuerte5} loading="lazy"/>
+              <img src={imagen.fuerte6} alt={imagen.fuerte6} loading="lazy"/>
+              <img src={imagen.fuerte7} alt={imagen.fuerte7} loading="lazy"/>
+              <img src={imagen.fuerte8} alt={imagen.fuerte8} loading="lazy"/>
+              <img src={imagen.fuerte9} alt={imagen.fuerte9} loading="lazy"/>
+              <img src={imagen.fuerte10} alt={imagen.fuerte10} loading="lazy"/>
+              <img src={imagen.fuerte11} alt={imagen.fuerte11} loading="lazy"/>
+              <img src={imagen.fuerte12} alt={imagen.fuerte12} loading="lazy"/>
   
   
               </div>
   
             <div className="Debilidad">
             <h2>Débil contra:</h2>
-              <img src={imagen.debil1} alt={imagen.debil1} />
-              <img src={imagen.debil2} alt={imagen.debil2} />
-              <img src={imagen.debil3} alt={imagen.debil3} />
-              <img src={imagen.debil4} alt={imagen.debil4} />
-              <img src={imagen.debil5} alt={imagen.debil5} />
-              <img src={imagen.debil6} alt={imagen.debil6} />
-              <img src={imagen.debil7} alt={imagen.debil7} />
-              <img src={imagen.debil8} alt={imagen.debil8} />
-              <img src={imagen.debil9} alt={imagen.debil9} />
-              <img src={imagen.debil10} alt={imagen.debil10} />
+              <img src={imagen.debil1} alt={imagen.debil1} loading="lazy"/>
+              <img src={imagen.debil2} alt={imagen.debil2} loading="lazy"/>
+              <img src={imagen.debil3} alt={imagen.debil3} loading="lazy"/>
+              <img src={imagen.debil4} alt={imagen.debil4} loading="lazy"/>
+              <img src={imagen.debil5} alt={imagen.debil5} loading="lazy"/>
+              <img src={imagen.debil6} alt={imagen.debil6} loading="lazy"/>
+              <img src={imagen.debil7} alt={imagen.debil7} loading="lazy"/>
+              <img src={imagen.debil8} alt={imagen.debil8} loading="lazy"/>
+              <img src={imagen.debil9} alt={imagen.debil9} loading="lazy"/>
+              <img src={imagen.debil10} alt={imagen.debil10} loading="lazy"/>
   
   
           </div>
@@ -332,41 +332,41 @@ return(
           <p>{imagen.num}</p>
           <div className="Tipo" >
             <h2>Tipo:</h2>
-            <img src={imagen.tipo1}/>
-            <img src={imagen.tipo2}/>
+            <img src={imagen.tipo1} loading="lazy"/>
+            <img src={imagen.tipo2} loading="lazy"/>
           </div>
 
           <div className='TyD'>
           <div className="Fuerte">
           <h2>Fuerte contra:</h2>
-            <img src={imagen.fuerte1} alt={imagen.fuerte1} />
-            <img src={imagen.fuerte2} alt={imagen.fuerte2} />
-            <img src={imagen.fuerte3} alt={imagen.fuerte3} />
-            <img src={imagen.fuerte4} alt={imagen.fuerte4} />
-            <img src={imagen.fuerte5} alt={imagen.fuerte5} />
-            <img src={imagen.fuerte6} alt={imagen.fuerte6} />
-            <img src={imagen.fuerte7} alt={imagen.fuerte7} />
-            <img src={imagen.fuerte8} alt={imagen.fuerte8} />
-            <img src={imagen.fuerte9} alt={imagen.fuerte9} />
-            <img src={imagen.fuerte10} alt={imagen.fuerte10} />
-            <img src={imagen.fuerte11} alt={imagen.fuerte11} />
-            <img src={imagen.fuerte12} alt={imagen.fuerte12} />
+            <img src={imagen.fuerte1} alt={imagen.fuerte1} loading="lazy"/>
+            <img src={imagen.fuerte2} alt={imagen.fuerte2} loading="lazy"/>
+            <img src={imagen.fuerte3} alt={imagen.fuerte3} loading="lazy"/>
+            <img src={imagen.fuerte4} alt={imagen.fuerte4} loading="lazy"/>
+            <img src={imagen.fuerte5} alt={imagen.fuerte5} loading="lazy"/>
+            <img src={imagen.fuerte6} alt={imagen.fuerte6} loading="lazy"/>
+            <img src={imagen.fuerte7} alt={imagen.fuerte7} loading="lazy"/>
+            <img src={imagen.fuerte8} alt={imagen.fuerte8} loading="lazy"/>
+            <img src={imagen.fuerte9} alt={imagen.fuerte9} loading="lazy"/>
+            <img src={imagen.fuerte10} alt={imagen.fuerte10} loading="lazy"/>
+            <img src={imagen.fuerte11} alt={imagen.fuerte11} loading="lazy"/>
+            <img src={imagen.fuerte12} alt={imagen.fuerte12} loading="lazy"/>
 
 
             </div>
 
           <div className="Debilidad">
           <h2>Débil contra:</h2>
-            <img src={imagen.debil1} alt={imagen.debil1} />
-            <img src={imagen.debil2} alt={imagen.debil2} />
-            <img src={imagen.debil3} alt={imagen.debil3} />
-            <img src={imagen.debil4} alt={imagen.debil4} />
-            <img src={imagen.debil5} alt={imagen.debil5} />
-            <img src={imagen.debil6} alt={imagen.debil6} />
-            <img src={imagen.debil7} alt={imagen.debil7} />
-            <img src={imagen.debil8} alt={imagen.debil8} />
-            <img src={imagen.debil9} alt={imagen.debil9} />
-            <img src={imagen.debil10} alt={imagen.debil10} />
+            <img src={imagen.debil1} alt={imagen.debil1} loading="lazy"/>
+            <img src={imagen.debil2} alt={imagen.debil2} loading="lazy"/>
+            <img src={imagen.debil3} alt={imagen.debil3} loading="lazy"/>
+            <img src={imagen.debil4} alt={imagen.debil4} loading="lazy"/>
+            <img src={imagen.debil5} alt={imagen.debil5} loading="lazy"/>
+            <img src={imagen.debil6} alt={imagen.debil6} loading="lazy"/>
+            <img src={imagen.debil7} alt={imagen.debil7} loading="lazy"/>
+            <img src={imagen.debil8} alt={imagen.debil8} loading="lazy"/>
+            <img src={imagen.debil9} alt={imagen.debil9} loading="lazy"/>
+            <img src={imagen.debil10} alt={imagen.debil10} loading="lazy"/>
 
 
         </div>
@@ -398,41 +398,41 @@ export const Alola = ({TipoDeb}) => {
           <p>{imagen.num}</p>
           <div className="Tipo" >
             <h2>Tipo:</h2>
-            <img src={imagen.tipo1}/>
-            <img src={imagen.tipo2}/>
+            <img src={imagen.tipo1} loading="lazy"/>
+            <img src={imagen.tipo2} loading="lazy"/>
           </div>
 
           <div className='TyD'>
           <div className="Fuerte">
           <h2>Fuerte contra:</h2>
-            <img src={imagen.fuerte1} alt={imagen.fuerte1} />
-            <img src={imagen.fuerte2} alt={imagen.fuerte2} />
-            <img src={imagen.fuerte3} alt={imagen.fuerte3} />
-            <img src={imagen.fuerte4} alt={imagen.fuerte4} />
-            <img src={imagen.fuerte5} alt={imagen.fuerte5} />
-            <img src={imagen.fuerte6} alt={imagen.fuerte6} />
-            <img src={imagen.fuerte7} alt={imagen.fuerte7} />
-            <img src={imagen.fuerte8} alt={imagen.fuerte8} />
-            <img src={imagen.fuerte9} alt={imagen.fuerte9} />
-            <img src={imagen.fuerte10} alt={imagen.fuerte10} />
-            <img src={imagen.fuerte11} alt={imagen.fuerte11} />
-            <img src={imagen.fuerte12} alt={imagen.fuerte12} />
+            <img src={imagen.fuerte1} alt={imagen.fuerte1} loading="lazy"/>
+            <img src={imagen.fuerte2} alt={imagen.fuerte2} loading="lazy"/>
+            <img src={imagen.fuerte3} alt={imagen.fuerte3} loading="lazy"/>
+            <img src={imagen.fuerte4} alt={imagen.fuerte4} loading="lazy"/>
+            <img src={imagen.fuerte5} alt={imagen.fuerte5} loading="lazy"/>
+            <img src={imagen.fuerte6} alt={imagen.fuerte6} loading="lazy"/>
+            <img src={imagen.fuerte7} alt={imagen.fuerte7} loading="lazy"/>
+            <img src={imagen.fuerte8} alt={imagen.fuerte8} loading="lazy"/>
+            <img src={imagen.fuerte9} alt={imagen.fuerte9} loading="lazy"/>
+            <img src={imagen.fuerte10} alt={imagen.fuerte10} loading="lazy"/>
+            <img src={imagen.fuerte11} alt={imagen.fuerte11} loading="lazy"/>
+            <img src={imagen.fuerte12} alt={imagen.fuerte12} loading="lazy"/>
 
 
             </div>
 
           <div className="Debilidad">
           <h2>Débil contra:</h2>
-            <img src={imagen.debil1} alt={imagen.debil1} />
-            <img src={imagen.debil2} alt={imagen.debil2} />
-            <img src={imagen.debil3} alt={imagen.debil3} />
-            <img src={imagen.debil4} alt={imagen.debil4} />
-            <img src={imagen.debil5} alt={imagen.debil5} />
-            <img src={imagen.debil6} alt={imagen.debil6} />
-            <img src={imagen.debil7} alt={imagen.debil7} />
-            <img src={imagen.debil8} alt={imagen.debil8} />
-            <img src={imagen.debil9} alt={imagen.debil9} />
-            <img src={imagen.debil10} alt={imagen.debil10} />
+            <img src={imagen.debil1} alt={imagen.debil1} loading="lazy"/>
+            <img src={imagen.debil2} alt={imagen.debil2} loading="lazy"/>
+            <img src={imagen.debil3} alt={imagen.debil3} loading="lazy"/>
+            <img src={imagen.debil4} alt={imagen.debil4} loading="lazy"/>
+            <img src={imagen.debil5} alt={imagen.debil5} loading="lazy"/>
+            <img src={imagen.debil6} alt={imagen.debil6} loading="lazy"/>
+            <img src={imagen.debil7} alt={imagen.debil7} loading="lazy"/>
+            <img src={imagen.debil8} alt={imagen.debil8} loading="lazy"/>
+            <img src={imagen.debil9} alt={imagen.debil9} loading="lazy"/>
+            <img src={imagen.debil10} alt={imagen.debil10} loading="lazy"/>
 
 
         </div>
@@ -463,41 +463,41 @@ return(
           <p>{imagen.num}</p>
           <div className="Tipo" >
             <h2>Tipo:</h2>
-            <img src={imagen.tipo1}/>
-            <img src={imagen.tipo2}/>
+            <img src={imagen.tipo1} loading="lazy"/>
+            <img src={imagen.tipo2} loading="lazy"/>
           </div>
 
           <div className='TyD'>
           <div className="Fuerte">
           <h2>Fuerte contra:</h2>
-            <img src={imagen.fuerte1} alt={imagen.fuerte1} />
-            <img src={imagen.fuerte2} alt={imagen.fuerte2} />
-            <img src={imagen.fuerte3} alt={imagen.fuerte3} />
-            <img src={imagen.fuerte4} alt={imagen.fuerte4} />
-            <img src={imagen.fuerte5} alt={imagen.fuerte5} />
-            <img src={imagen.fuerte6} alt={imagen.fuerte6} />
-            <img src={imagen.fuerte7} alt={imagen.fuerte7} />
-            <img src={imagen.fuerte8} alt={imagen.fuerte8} />
-            <img src={imagen.fuerte9} alt={imagen.fuerte9} />
-            <img src={imagen.fuerte10} alt={imagen.fuerte10} />
-            <img src={imagen.fuerte11} alt={imagen.fuerte11} />
-            <img src={imagen.fuerte12} alt={imagen.fuerte12} />
+            <img src={imagen.fuerte1} alt={imagen.fuerte1} loading="lazy"/>
+            <img src={imagen.fuerte2} alt={imagen.fuerte2} loading="lazy"/>
+            <img src={imagen.fuerte3} alt={imagen.fuerte3} loading="lazy"/>
+            <img src={imagen.fuerte4} alt={imagen.fuerte4} loading="lazy"/>
+            <img src={imagen.fuerte5} alt={imagen.fuerte5} loading="lazy"/>
+            <img src={imagen.fuerte6} alt={imagen.fuerte6} loading="lazy"/>
+            <img src={imagen.fuerte7} alt={imagen.fuerte7} loading="lazy"/>
+            <img src={imagen.fuerte8} alt={imagen.fuerte8} loading="lazy"/>
+            <img src={imagen.fuerte9} alt={imagen.fuerte9} loading="lazy"/>
+            <img src={imagen.fuerte10} alt={imagen.fuerte10} loading="lazy"/>
+            <img src={imagen.fuerte11} alt={imagen.fuerte11} loading="lazy"/>
+            <img src={imagen.fuerte12} alt={imagen.fuerte12} loading="lazy"/>
 
 
             </div>
 
           <div className="Debilidad">
           <h2>Débil contra:</h2>
-            <img src={imagen.debil1} alt={imagen.debil1} />
-            <img src={imagen.debil2} alt={imagen.debil2} />
-            <img src={imagen.debil3} alt={imagen.debil3} />
-            <img src={imagen.debil4} alt={imagen.debil4} />
-            <img src={imagen.debil5} alt={imagen.debil5} />
-            <img src={imagen.debil6} alt={imagen.debil6} />
-            <img src={imagen.debil7} alt={imagen.debil7} />
-            <img src={imagen.debil8} alt={imagen.debil8} />
-            <img src={imagen.debil9} alt={imagen.debil9} />
-            <img src={imagen.debil10} alt={imagen.debil10} />
+            <img src={imagen.debil1} alt={imagen.debil1} loading="lazy"/>
+            <img src={imagen.debil2} alt={imagen.debil2} loading="lazy"/>
+            <img src={imagen.debil3} alt={imagen.debil3} loading="lazy"/>
+            <img src={imagen.debil4} alt={imagen.debil4} loading="lazy"/>
+            <img src={imagen.debil5} alt={imagen.debil5} loading="lazy"/>
+            <img src={imagen.debil6} alt={imagen.debil6} loading="lazy"/>
+            <img src={imagen.debil7} alt={imagen.debil7} loading="lazy"/>
+            <img src={imagen.debil8} alt={imagen.debil8} loading="lazy"/>
+            <img src={imagen.debil9} alt={imagen.debil9} loading="lazy"/>
+            <img src={imagen.debil10} alt={imagen.debil10} loading="lazy"/>
 
 
         </div>
@@ -530,41 +530,41 @@ return(
           <p>{imagen.num}</p>
           <div className="Tipo" >
             <h2>Tipo:</h2>
-            <img src={imagen.tipo1}/>
-            <img src={imagen.tipo2}/>
+            <img src={imagen.tipo1} loading="lazy"/>
+            <img src={imagen.tipo2} loading="lazy"/>
           </div>
 
           <div className='TyD'>
           <div className="Fuerte">
           <h2>Fuerte contra:</h2>
-            <img src={imagen.fuerte1} alt={imagen.fuerte1} />
-            <img src={imagen.fuerte2} alt={imagen.fuerte2} />
-            <img src={imagen.fuerte3} alt={imagen.fuerte3} />
-            <img src={imagen.fuerte4} alt={imagen.fuerte4} />
-            <img src={imagen.fuerte5} alt={imagen.fuerte5} />
-            <img src={imagen.fuerte6} alt={imagen.fuerte6} />
-            <img src={imagen.fuerte7} alt={imagen.fuerte7} />
-            <img src={imagen.fuerte8} alt={imagen.fuerte8} />
-            <img src={imagen.fuerte9} alt={imagen.fuerte9} />
-            <img src={imagen.fuerte10} alt={imagen.fuerte10} />
-            <img src={imagen.fuerte11} alt={imagen.fuerte11} />
-            <img src={imagen.fuerte12} alt={imagen.fuerte12} />
+            <img src={imagen.fuerte1} alt={imagen.fuerte1} loading="lazy"/>
+            <img src={imagen.fuerte2} alt={imagen.fuerte2} loading="lazy"/>
+            <img src={imagen.fuerte3} alt={imagen.fuerte3} loading="lazy"/>
+            <img src={imagen.fuerte4} alt={imagen.fuerte4} loading="lazy"/>
+            <img src={imagen.fuerte5} alt={imagen.fuerte5} loading="lazy"/>
+            <img src={imagen.fuerte6} alt={imagen.fuerte6} loading="lazy"/>
+            <img src={imagen.fuerte7} alt={imagen.fuerte7} loading="lazy"/>
+            <img src={imagen.fuerte8} alt={imagen.fuerte8} loading="lazy"/>
+            <img src={imagen.fuerte9} alt={imagen.fuerte9} loading="lazy"/>
+            <img src={imagen.fuerte10} alt={imagen.fuerte10} loading="lazy"/>
+            <img src={imagen.fuerte11} alt={imagen.fuerte11} loading="lazy"/>
+            <img src={imagen.fuerte12} alt={imagen.fuerte12} loading="lazy"/>
 
 
             </div>
 
           <div className="Debilidad">
           <h2>Débil contra:</h2>
-            <img src={imagen.debil1} alt={imagen.debil1} />
-            <img src={imagen.debil2} alt={imagen.debil2} />
-            <img src={imagen.debil3} alt={imagen.debil3} />
-            <img src={imagen.debil4} alt={imagen.debil4} />
-            <img src={imagen.debil5} alt={imagen.debil5} />
-            <img src={imagen.debil6} alt={imagen.debil6} />
-            <img src={imagen.debil7} alt={imagen.debil7} />
-            <img src={imagen.debil8} alt={imagen.debil8} />
-            <img src={imagen.debil9} alt={imagen.debil9} />
-            <img src={imagen.debil10} alt={imagen.debil10} />
+            <img src={imagen.debil1} alt={imagen.debil1} loading="lazy"/>
+            <img src={imagen.debil2} alt={imagen.debil2} loading="lazy"/>
+            <img src={imagen.debil3} alt={imagen.debil3} loading="lazy"/>
+            <img src={imagen.debil4} alt={imagen.debil4} loading="lazy"/>
+            <img src={imagen.debil5} alt={imagen.debil5} loading="lazy"/>
+            <img src={imagen.debil6} alt={imagen.debil6} loading="lazy"/>
+            <img src={imagen.debil7} alt={imagen.debil7} loading="lazy"/>
+            <img src={imagen.debil8} alt={imagen.debil8} loading="lazy"/>
+            <img src={imagen.debil9} alt={imagen.debil9} loading="lazy"/>
+            <img src={imagen.debil10} alt={imagen.debil10} loading="lazy"/>
 
 
         </div>

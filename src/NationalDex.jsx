@@ -463,6 +463,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Esqueleto-johto"
                     style={{ width: `${(100 / filteredImagesKanto.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -495,6 +496,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgJohto"
                     style={{ width: `${(100 / filteredImagesKanto.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -562,6 +564,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Esqueleto-johto"
                     style={{ width: `${(100 / filteredImagesJohto.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -594,6 +597,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgJohto"
                     style={{ width: `${(100 / filteredImagesJohto.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -659,6 +663,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Esqueleto-johto"
                     style={{ width: `${(100 / filteredImagesHoenn.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -691,6 +696,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgJohto"
                     style={{ width: `${(100 / filteredImagesHoenn.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -757,6 +763,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Esqueleto-johto"
                     style={{ width: `${(100 / filteredImagesSinnoh.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -789,6 +796,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgJohto"
                     style={{ width: `${(100 / filteredImagesSinnoh.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -856,6 +864,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Esqueleto-Sinnoh"
                     style={{ width: `${(100 / filteredImagesUnova.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -888,6 +897,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgSinnoh"
                     style={{ width: `${(100 / filteredImagesUnova.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -965,6 +975,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Esqueleto-johto"
                     style={{ width: `${(100 / filteredImagesKalos.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -997,6 +1008,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgJohto"
                     style={{ width: `${(100 / filteredImagesKalos.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -1071,6 +1083,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Esqueleto-johto"
                     style={{ width: `${(100 / filteredImagesAlola.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -1103,6 +1116,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgJohto"
                     style={{ width: `${(100 / filteredImagesAlola.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -1170,6 +1184,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Esqueleto-johto"
                     style={{ width: `${(100 / filteredImagesGalar.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -1202,6 +1217,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgJohto"
                     style={{ width: `${(100 / filteredImagesGalar.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -1269,6 +1285,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Esqueleto-johto"
                     style={{ width: `${(100 / filteredImagesPaldea.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
@@ -1301,6 +1318,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgJohto"
                     style={{ width: `${(100 / filteredImagesPaldea.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
