@@ -1,19 +1,37 @@
 import React, { useEffect, useState } from 'react';
+import "./ListaUsuarios.css";
 import Header from './Header';
+import { Login } from './Login'
 
 export const ListaUsuarios = () => {
   const [usuarios, setUsuarios] = useState([]);
 
   useEffect(() => {
-    // Obtener todos los registros de usuarios del localStorage
-    const registros = Object.values(localStorage.getItem('usuarios'));
+    const registros = Object.values(localStorage);
+    const usuariosLocalStorage = registros.map((registro) => JSON.parse(registro));
 
-    // Convertir las cadenas JSON en objetos JavaScript
-    const usuarios = registros.map((registro) => JSON.parse(registro));
-
-    // Actualizar el estado de usuarios
-    setUsuarios(usuarios);
+    // Agregar los usuarios del localStorage a la lista de usuarios
+    setUsuarios(usuariosLocalStorage.concat(usuariosAdicionales));
   }, []);
+
+  // Definir los usuarios adicionales
+  const usuariosAdicionales = [
+    {
+      nombreUsuario: "P.Oak",
+      correoElectronico: "oak_kanto@dex.com",
+      contrasena: "Kanto01",
+    },
+    {
+      nombreUsuario: "P.Kukui",
+      correoElectronico: "kukui_alola@dex.com",
+      contrasena: "Alola07",
+    },
+    {
+      nombreUsuario: "P.Turo",
+      correoElectronico: "turo_paldea@dex.com",
+      contrasena: "Paldea10",
+    },
+  ];
 
   return (
     <>
@@ -46,6 +64,8 @@ export const ListaUsuarios = () => {
           <p>No hay usuarios registrados.</p>
         )}
       </div>
+
+      <Login usuariosAdicionales={usuariosAdicionales} />
     </>
   );
 };
