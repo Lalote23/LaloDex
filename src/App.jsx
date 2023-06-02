@@ -8,6 +8,7 @@ import { Registro } from "./Registro";
 import { ListaUsuarios } from "./ListaUsuarios";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Login from "./Login";
+import { LoginPage } from "./LoginPage";
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
 
       <Route path="/ListaUsuarios" element={<ListaUsuarios />} />
 
-      <Route path="/Login" element={<Login />} />
+      <Route path="/Login" element={<LoginPage />} />
 
 
 

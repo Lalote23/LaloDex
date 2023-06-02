@@ -1,18 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import "./ListaUsuarios.css";
 import Header from './Header';
-import { Login } from './Login'
 
 export const ListaUsuarios = () => {
   const [usuarios, setUsuarios] = useState([]);
-
-  useEffect(() => {
-    const registros = Object.values(localStorage);
-    const usuariosLocalStorage = registros.map((registro) => JSON.parse(registro));
-
-    // Agregar los usuarios del localStorage a la lista de usuarios
-    setUsuarios(usuariosLocalStorage.concat(usuariosAdicionales));
-  }, []);
 
   // Definir los usuarios adicionales
   const usuariosAdicionales = [
@@ -32,6 +23,14 @@ export const ListaUsuarios = () => {
       contrasena: "Paldea10",
     },
   ];
+
+  useEffect(() => {
+    const registros = Object.values(localStorage);
+    const usuariosLocalStorage = registros.map((registro) => JSON.parse(registro));
+
+    // Agregar los usuarios del localStorage a la lista de usuarios
+    setUsuarios(usuariosLocalStorage.concat(usuariosAdicionales));
+  }, []);
 
   return (
     <>
@@ -65,7 +64,7 @@ export const ListaUsuarios = () => {
         )}
       </div>
 
-      <Login usuariosAdicionales={usuariosAdicionales} />
+
     </>
   );
 };

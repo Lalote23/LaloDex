@@ -4,6 +4,7 @@ export const Login = ({usuariosAdicionales}) => {
   const [correoElectronico, setCorreoElectronico] = useState('');
   const [contrasena, setContrasena] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  
 
   const handleLogin = (e) => {
     e.preventDefault();
