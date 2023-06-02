@@ -1,0 +1,17 @@
+.RegistroUsuarios{
+    margin-left: 40px;
+}
+
+
+.Usuarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.listadoUsuarios{
+    justify-content: space-between;
+    display: flex;
+    width: 600px;
+  }

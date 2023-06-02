@@ -4,7 +4,10 @@ import Header from "./Header";
 import { Home } from "./Home";
 import { NationalDex } from "./NationalDex";
 import { TeamBuilder } from "./TeamBuilder";
+import { Registro } from "./Registro";
+import { ListaUsuarios } from "./ListaUsuarios";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import Login from "./Login";
 
 function App() {
   return (
@@ -22,11 +25,14 @@ function App() {
 
 
         <Link to='/' ></Link>
-        <Link to='/NationalDex' >
-          
-        </Link>
-        <Link to='/TeamBuilder' ></Link>
-        <Link to='/GymLeaders' ></Link>
+        <Link to='/NationalDex'></Link>
+        <Link to='/TeamBuilder'></Link>
+        <Link to='/GymLeaders'></Link>
+        <Link to='/Registro'></Link>
+        <Link to='/ListaUsuarios'></Link>
+        <Link to='/Login'></Link>
+
+
 
 
       <Routes>
@@ -38,6 +44,15 @@ function App() {
       <Route path="/TeamBuilder" element={<TeamBuilder />} />
 
       <Route path="/GymLeaders" element={<GymLeaders />} />
+
+      <Route path="/Registro" element={<Registro />} />
+
+      <Route path="/ListaUsuarios" element={<ListaUsuarios />} />
+
+      <Route path="/Login" element={<Login />} />
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-import "./HomePage.css";
+import "./HomePage.css"
 import { Link } from 'react-router-dom'
 
 
@@ -155,17 +155,22 @@ export const Header = () => {
         <ul className="Ulcontainer">
           <li>
             <Link to='/NationalDex' > 
-              <button className="box"> NationalDex</button>
+              <button className="box">NationalDex</button>
             </Link>
           </li>
           <li>
           <Link to='/GymLeaders' >
-              <button className="box"> Lideres Gimnasio</button>
+              <button className="box">Lideres Gimnasio</button>
           </Link>
           </li>
           <li>
           <Link to='/TeamBuilder' >
-            <button className="box"> Team Builder</button>
+            <button className="box">Team Builder</button>
+          </Link>
+          </li>
+          <li>
+          <Link to='/Registro' >
+            <button className="box">Registro/Login</button>
           </Link>
           </li>
         </ul>
