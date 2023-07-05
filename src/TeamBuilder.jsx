@@ -9,63 +9,147 @@ export const TeamBuilder = () => {
   const [nombrePokemon1, setNombrePokemon1] = useState('');
   const [imagenLider1, setImagenLider1] = useState(null);
   const [pokemonEnNumero1, setPokemonEnNumero1] = useState(null);
+  const [numero1, setNumero1] = useState('');
+  const [nombre1, setNombre1] = useState('');
   
   const [nombrePokemon2, setNombrePokemon2] = useState('');
   const [imagenLider2, setImagenLider2] = useState(null);
   const [pokemonEnNumero2, setPokemonEnNumero2] = useState(null);
+  const [numero2, setNumero2] = useState('');
+  const [nombre2, setNombre2] = useState('');
 
   const [nombrePokemon3, setNombrePokemon3] = useState('');
   const [imagenLider3, setImagenLider3] = useState(null);
   const [pokemonEnNumero3, setPokemonEnNumero3] = useState(null);
+  const [numero3, setNumero3] = useState('');
+  const [nombre3, setNombre3] = useState('');
 
   const [nombrePokemon4, setNombrePokemon4] = useState('');
   const [imagenLider4, setImagenLider4] = useState(null);
   const [pokemonEnNumero4, setPokemonEnNumero4] = useState(null);
+  const [numero4, setNumero4] = useState('');
+  const [nombre4, setNombre4] = useState('');
 
   const [nombrePokemon5, setNombrePokemon5] = useState('');
   const [imagenLider5, setImagenLider5] = useState(null);
   const [pokemonEnNumero5, setPokemonEnNumero5] = useState(null);
+  const [numero5, setNumero5] = useState('');
+  const [nombre5, setNombre5] = useState('');
 
   const [nombrePokemon6, setNombrePokemon6] = useState('');
   const [imagenLider6, setImagenLider6] = useState(null);
   const [pokemonEnNumero6, setPokemonEnNumero6] = useState(null);
+  const [numero6, setNumero6] = useState('');
+  const [nombre6, setNombre6] = useState('');
 
 
-  const [mostrarDiv1, setMostrarDiv1] = useState(false)
-  const handleClick1 = () => {setMostrarDiv1(!mostrarDiv1);
+
+
+   const [mostrarDiv1, setMostrarDiv1] = useState(false)
+   const handleClick1 = () => {setMostrarDiv1(!mostrarDiv1);
+     const boton1 = document.querySelector('.image1');
+      boton1.classList.add('oculto');
+   }
+
+   
+  const handleClick1c = () => { setMostrarDiv1(false);
     const boton1 = document.querySelector('.image1');
-     boton1.classList.add('oculto');
-  }
+    boton1.classList.remove('oculto');
+    setNumero1('');
+    setNombre1('');
+    setNombrePokemon1('');
+    setImagenLider1(null);
+    setPokemonEnNumero1(null);
+  };
+  
+
 
   const [mostrarDiv2, setMostrarDiv2] = useState(false)
   const handleClick2 = () => {setMostrarDiv2(!mostrarDiv2);
     const boton2 = document.querySelector('.image2');
      boton2.classList.add('oculto');
   }
+  const handleClick2c = () => { setMostrarDiv2(false);
+    const boton2 = document.querySelector('.image2');
+    boton2.classList.remove('oculto');
+    setNumero2('');
+    setNombre2('');
+    setNombrePokemon2('');
+    setImagenLider2(null);
+    setPokemonEnNumero2(null);
+  };
+
+
 
   const [mostrarDiv3, setMostrarDiv3] = useState(false)
   const handleClick3 = () => {setMostrarDiv3(!mostrarDiv3);
     const boton3 = document.querySelector('.image3');
      boton3.classList.add('oculto');
   }
+  const handleClick3c = () => { setMostrarDiv3(false);
+    const boton3 = document.querySelector('.image3');
+    boton3.classList.remove('oculto');
+    setNumero3('');
+    setNombre3('');
+    setNombrePokemon3('');
+    setImagenLider3(null);
+    setPokemonEnNumero3(null);
+  };
+
 
   const [mostrarDiv4, setMostrarDiv4] = useState(false)
   const handleClick4 = () => {setMostrarDiv4(!mostrarDiv4);
     const boton4 = document.querySelector('.image4');
      boton4.classList.add('oculto');
   }
+  const handleClick4c = () => { setMostrarDiv4(false);
+    const boton4 = document.querySelector('.image4');
+    boton4.classList.remove('oculto');
+    setNumero4('');
+    setNombre4('');
+    setNombrePokemon4('');
+    setImagenLider4(null);
+    setPokemonEnNumero4(null);
+  };
+
+
 
   const [mostrarDiv5, setMostrarDiv5] = useState(false)
   const handleClick5 = () => {setMostrarDiv5(!mostrarDiv5);
     const boton5 = document.querySelector('.image5');
      boton5.classList.add('oculto');
   }
+  const handleClick5c = () => { setMostrarDiv5(false);
+    const boton5 = document.querySelector('.image5');
+    boton5.classList.remove('oculto');
+    setNumero5('');
+    setNombre5('');
+    setNombrePokemon5('');
+    setImagenLider5(null);
+    setPokemonEnNumero5(null);
+  };
+
 
   const [mostrarDiv6, setMostrarDiv6] = useState(false)
   const handleClick6 = () => {setMostrarDiv6(!mostrarDiv6);
     const boton6 = document.querySelector('.image6');
      boton6.classList.add('oculto');
   }
+  const handleClick6c = () => { setMostrarDiv6(false);
+    const boton6 = document.querySelector('.image6');
+    boton6.classList.remove('oculto');
+    setNumero6('');
+    setNombre6('');
+    setNombrePokemon6('');
+    setImagenLider6(null);
+    setPokemonEnNumero6(null);
+  };
+
+
+
+
+  
+
 
 // ==========================1=================================
   const handleNumeroChange1 = (event) => {
@@ -522,7 +606,13 @@ const debilyfuerte = indices.forEach((index) => {
 
               </form>
 
+
+                <img src='media/dex/Pokes/icons8-minus-100.png' alt="" onClick={handleClick1c} className="Minus" />
+
+
             </div>
+
+            
 
           )}
         </div>
@@ -567,6 +657,8 @@ const debilyfuerte = indices.forEach((index) => {
                 {imagenLider2 && <img src={imagenLider2} alt='imagen' />}
 
               </form>
+
+              <img src='media/dex/Pokes/icons8-minus-100.png' alt="" onClick={handleClick2c} className="Minus" />
 
             </div>
           )}
@@ -615,6 +707,8 @@ const debilyfuerte = indices.forEach((index) => {
 
               </form>
 
+              <img src='media/dex/Pokes/icons8-minus-100.png' alt="" onClick={handleClick3c} className="Minus" />
+
             </div>
           )}
 
@@ -660,6 +754,8 @@ const debilyfuerte = indices.forEach((index) => {
 
               </form>
 
+              <img src='media/dex/Pokes/icons8-minus-100.png' alt="" onClick={handleClick4c} className="Minus" />
+
             </div>
           )}
           <div className="Armatuteam">
@@ -702,6 +798,8 @@ const debilyfuerte = indices.forEach((index) => {
                 {imagenLider5 && <img src={imagenLider5} alt='imagen' />}
 
               </form>
+
+              <img src='media/dex/Pokes/icons8-minus-100.png' alt="" onClick={handleClick5c} className="Minus" />
 
             </div>
           )}
@@ -746,6 +844,8 @@ const debilyfuerte = indices.forEach((index) => {
                 {imagenLider6 && <img src={imagenLider6} alt='imagen' />}
 
               </form>
+
+              <img src='media/dex/Pokes/icons8-minus-100.png' alt="" onClick={handleClick6c} className="Minus" />
 
             </div>
           )}
