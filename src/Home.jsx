@@ -282,8 +282,46 @@ export const Home = () =>{
 
 
         </div>
+
+      <div className="footer">
+        
+        <ul className="Ulcontainer">
+          <li>
+            <Link to='/NationalDex' > 
+              <button className="box">NationalDex</button>
+            </Link>
+          </li>
+          <li>
+          <Link to='/GymLeaders' >
+              <button className="box">Lideres Gimnasio</button>
+          </Link>
+          </li>
+          <li>
+          <Link to='/TeamBuilder' >
+            <button className="box">Team Builder</button>
+          </Link>
+          </li>
+          <li>
+          <Link to='/Registro' >
+            <button className="box">Registro</button>
+          </Link>
+          </li>
+          <li>
+          <Link to='/Login' >
+            <button className="box">Login</button>
+          </Link>
+          </li>
+        </ul>
+      </div>
+
+
         </>
+
+        
     )
+
+
+
 
 
 }

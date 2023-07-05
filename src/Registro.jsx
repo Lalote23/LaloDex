@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import Login from './Login';
-
+import "./Registro.css"
 
 export const Registro = () => {
   const [nombreUsuario, setNombreUsuario] = useState('');
@@ -35,8 +35,9 @@ export const Registro = () => {
     <Header />
   </div>
 
+  <div className='Login'>
     <form onSubmit={handleRegistro}>
-      <label>
+      <label className='Label'>
         Nombre de usuario:
         <input
           type="text"
@@ -45,7 +46,7 @@ export const Registro = () => {
         />
       </label>
       <br />
-      <label>
+      <label className='Label'>
         Correo electrónico:
         <input
           type="email"
@@ -54,7 +55,7 @@ export const Registro = () => {
         />
       </label>
       <br />
-      <label>
+      <label className='Label'> 
         Contraseña:
         <input
           type="password"
@@ -66,7 +67,7 @@ export const Registro = () => {
       <br />
       <button type="submit">Registrar</button>
     </form>
-
+    </div>
 
 
     </>

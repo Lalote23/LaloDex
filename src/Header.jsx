@@ -170,7 +170,12 @@ export const Header = () => {
           </li>
           <li>
           <Link to='/Registro' >
-            <button className="box">Registro/Login</button>
+            <button className="box">Registro</button>
+          </Link>
+          </li>
+          <li>
+          <Link to='/Login' >
+            <button className="box">Login</button>
           </Link>
           </li>
         </ul>

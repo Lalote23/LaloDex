@@ -46,10 +46,10 @@ function App() {
 
       <Route path="/GymLeaders" element={<GymLeaders />} />
 
-      <Route path="/Registro" element={<Registro />} />
-
       <Route path="/ListaUsuarios" element={<ListaUsuarios />} />
 
+      <Route path="/Registro" element={<Registro />} />
+      
       <Route path="/Login" element={<LoginPage />} />
 
 

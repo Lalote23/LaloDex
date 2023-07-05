@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./Login.css"
 
 export const Login = ({usuariosAdicionales}) => {
   const [correoElectronico, setCorreoElectronico] = useState('');
@@ -43,8 +44,9 @@ export const Login = ({usuariosAdicionales}) => {
   }
 
   return (
+    <div className='Login'>
     <form onSubmit={handleLogin}>
-      <label>
+      <label className='Label'>
         Correo electrónico:
         <input
           type="email"
@@ -53,7 +55,7 @@ export const Login = ({usuariosAdicionales}) => {
         />
       </label>
       <br />
-      <label>
+      <label className='Label'>
         Contraseña:
         <input
           type="password"
@@ -64,6 +66,7 @@ export const Login = ({usuariosAdicionales}) => {
       <br />
       <button type="submit">Iniciar sesión</button>
     </form>
+    </div>
   );
 };
 
