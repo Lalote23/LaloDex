@@ -1,5 +1,5 @@
 import "./App.css"
-import React, { useState }   from "react"
+import React, { useState, lazy, Suspense }   from "react"
 import { Pokes }             from "./Pokes.jsx"
 import { Esqueleto }         from "./Esqueleto.jsx"
 import ControlBotones        from "./ControlBotones"
@@ -34,6 +34,9 @@ export const NationalDex = () => {
 
 
   
+
+
+
 // BUSQUEDA
 
 const [   searchTerm,         setSearchTerm           ] = useState("")
@@ -424,6 +427,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
       <div className="Region">
         <h1>{regionKanto.Region}</h1>
       </div>
+     
 
       <div className="TypeDe">
         <div className="CarrouselTypeJohto">
@@ -443,9 +447,9 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
         </div>
       </div>
 
+
       <div className="AllDex">
 
-        
         <div className="CarrouselDevice">
           <div
             className="Carrousel-container"
@@ -488,6 +492,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
               transform: transformValueDexKanto(),
             }}
           >
+
             <div className="PokesKanto">
               <div className="PokesKanto-container">
               {filteredImagesKanto.map((imagen) => (
@@ -501,6 +506,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                 ))}
               </div>
             </div>
+
 
             <div className="Carrousel-num">
             {filteredImagesKanto.map((numero) => (
@@ -520,7 +526,6 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
           </div>
         </div>
       </div>
-
       {/* =============================JOHTO================================ */}
 
       <div className="Region">

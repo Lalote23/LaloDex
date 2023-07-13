@@ -27,6 +27,7 @@
     justify-content: space-between;
     align-items: stretch;
     transition: all .5s ease;
+    height: 100%;
   }
 
 
@@ -35,12 +36,13 @@
   position: absolute;
   top: 0;
   z-index: 1;
+  height: 100%;
 }
 
 .Anterior{
   left: 0;
   position: absolute;
-  height: 40em;
+  height: 100%;
   background-color: transparent;
   width: 30%;
 }
@@ -48,9 +50,10 @@
 .Siguiente{
   right: 0;
   position: absolute;
-  height: 40em;
+  height: 100%;
   background-color: transparent;
   width: 30%;
+
 }
 
 .Region{
@@ -108,6 +111,7 @@
   place-content: center space-around;
 }
 
+
 .Carrousel-h3{
   margin: 0;
   font-size: 1.5em;
@@ -126,72 +130,183 @@
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (min-width:800px) {
+  .Carrousel-num{
+    top: 1em;
+    font-size: 1em;
+  }
+
+  .Carrousel-h3{
+    top: 1em;
+    font-size: 1em;
+  }
+}
+
+
+@media screen and (min-width:1100px) {
+  .Carrousel-num{
+    top: 1em;
+    font-size: 1.2em;
+  }
+
+  .Carrousel-h3{
+    top: 1em;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width:1350px) {
+  .Carrousel-num{
+    top: 1em;
+    font-size: 1.4em;
+  }
+
+  .Carrousel-h3{
+    top: 1em;
+    font-size: 1.4em;
+  }
+}
+
+
+@media screen and (min-width:1500px) {
+  .Carrousel-num{
+    top: 1em;
+    font-size: 1.6em;
+  }
+
+  .Carrousel-h3{
+    top: 1em;
+    font-size: 1.6em;
+  }
+}
+
+
+/* @media screen and (max-width:800px){
   .Carrousel-num{
     left: 5em;
     top: .5em;
+    font-size: 1em;
+  }
+
+  .Carrousel-h3{
+    left: 3em;
+    top: 0.5em;
+    font-size: 1em;
+
+  }
+} */
+
+@media screen and (min-width:100px){
+  .Carrousel-num{
+    left: 5em;
+    top: .5em;
+    font-size: 0.44em;
+  }
+
+  .Carrousel-h3{
+    left: 4em;
+    top: 0.5em;
+    font-size: 0.44em;
+
+  }
+}
+
+
+/* @media screen and (max-width:500px){
+  .Carrousel-num{
+    left: 5em;
+    top: .5em;
+    font-size: 0.48em;
   }
 
   .Carrousel-h3{
     left: 5em;
     top: 0.5em;
-  }
+    font-size: 0.48em;
 
-  .Botones{
-    height: 12em;
   }
 }
 
-/* @media screen and (max-width:440px){
+
+@media screen and (max-width:520px){
   .Carrousel-num{
     left: 5em;
-    top: 4em;
+    top: .5em;
+    font-size: 0.55em;
   }
 
   .Carrousel-h3{
-    left: 6em;
-    top: 4em;
-  }
+    left: 5em;
+    top: 0.5em;
+    font-size: 0.55em;
 
+  }
 }
 
-@media screen and (min-width:440px){
+
+@media screen and (max-width:600px){
   .Carrousel-num{
     left: 5em;
-    top: 4em;
+    top: .5em;
+    font-size: 0.65em;
   }
 
   .Carrousel-h3{
-    left: 6em;
-    top: 4em;
-  }
+    left: 5em;
+    top: 0.5em;
+    font-size: 0.65em;
 
+  }
 }
 
-@media screen and (min-width:450px){
+@media screen and (max-width:670px){
   .Carrousel-num{
     left: 5em;
-    top: 3.5em;
+    top: .5em;
+    font-size: 0.74em;
   }
 
   .Carrousel-h3{
-    left: 6em;
-    top: 3.5em;
+    left: 4em;
+    top: 0.5em;
+    font-size: 0.74em;
+  }
+}
+
+@media screen and (max-width:780px){
+  .Carrousel-num{
+    left: 5em;
+    top: .5em;
+    font-size: 0.8em;
   }
 
+  .Carrousel-h3{
+    left: 4em;
+    top: 0.5em;
+    font-size: 0.8em;
+  }
 } */
 
-/* Regla de tres para elegir el tamaño correcto para carrousel 
-  (#dex*270) / 151
-*/
-.Esqueleto-johto{
-  /* width: calc( 100% / 178.80 ); */
-}
+
+/* @media screen and (max-width:880px){
+  .Carrousel-num{
+    left: 5em;
+    top: .5em;
+    font-size: 0.9em;
+  }
+
+  .Carrousel-h3{
+    left: 3em;
+    top: 0.5em;
+    font-size: 0.9em;
+  }
+} */
 
 
-.Carrousel-imgJohto{
-  /* width: calc( 100% / 178.80 ); */
-}
+
+
+
+
 
 .Carrousel-imgHoenn{
   width: calc( 100% / 241.39 );

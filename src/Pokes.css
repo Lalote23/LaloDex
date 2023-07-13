@@ -2,8 +2,9 @@
 .PokesKanto{
   width: 100% ;
   margin: auto;
-  position: absolute;
-  top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Region{
@@ -149,22 +150,12 @@ Operación patrón
 
 .Anterior{
   width: 10%;
-  height: 15em;
 }
 
 .Siguiente{
-  width: 12%;
-  height: 15em;
+  width: 14%;
 }
 
-.Carrousel-num{
-  font-size: 0.5em;
 
-}
-
-.Carrousel-h3{
-  font-size: 0.5em;
-
-}
 
 }
