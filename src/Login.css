@@ -2,10 +2,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 70px;
+    margin-bottom: 10px;
 }
 
 .Label{
     display: block;
     
+}
+
+.Inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.Rotom{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PikaCumple{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PikaDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }

@@ -28,7 +28,7 @@ export const Login = ({usuariosAdicionales}) => {
     if (usuarioEncontrado) {
       // Inicio de sesión exitoso
       setIsLoggedIn(true);
-      alert('Inicio de sesión exitoso');
+      alert('Login Exitoso!');
     } else {
       // Credenciales incorrectas
       alert('Credenciales incorrectas');
@@ -40,10 +40,14 @@ export const Login = ({usuariosAdicionales}) => {
   };
 
   if (isLoggedIn) {
-    return <p>¡Ya has iniciado sesión!</p>;
+    return <> <p className='Inicio'>¡Bienvenido Profesor!</p> 
+    <div className='PikaDiv'><img className='PikaCumple' src="media/dex/Pokes/Pika.png" alt="Pika Cumple" /></div>
+    </>
   }
 
   return (
+    <>
+
     <div className='Login'>
     <form onSubmit={handleLogin}>
       <label className='Label'>
@@ -67,6 +71,14 @@ export const Login = ({usuariosAdicionales}) => {
       <button type="submit">Iniciar sesión</button>
     </form>
     </div>
+
+    <footer>
+      <img className='Rotom' src="media/dex/Pokes/Rotom.png" alt="Rotom Dex" />
+    </footer>
+
+    </>
+    
+
   );
 };
 

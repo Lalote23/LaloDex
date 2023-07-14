@@ -32,6 +32,20 @@ export const ListaUsuarios = () => {
     setUsuarios(usuariosLocalStorage.concat(usuariosAdicionales));
   }, []);
 
+  const eliminarUsuario = (index) => {
+    const nuevosUsuarios = [...usuarios];
+    nuevosUsuarios.splice(index, 1);
+    setUsuarios(nuevosUsuarios);
+  
+    const registrosLocalStorage = nuevosUsuarios.map((usuario) => JSON.stringify(usuario));
+    Object.keys(localStorage).forEach((key) => {
+      const registro = localStorage.getItem(key);
+      if (!registrosLocalStorage.includes(registro)) {
+        localStorage.removeItem(key);
+      }
+    });
+  };
+
   return (
     <>
       <div>
@@ -47,6 +61,7 @@ export const ListaUsuarios = () => {
                 <th>Nombre de usuario:</th>
                 <th>Correo electrónico:</th>
                 <th>Contraseña:</th>
+                <th>Acciones:</th>
               </tr>
             </thead>
             <tbody>
@@ -55,6 +70,7 @@ export const ListaUsuarios = () => {
                   <td>{usuario.nombreUsuario}</td>
                   <td>{usuario.correoElectronico}</td>
                   <td>{usuario.contrasena}</td>
+                  <td><button onClick={() => eliminarUsuario(index)}>Eliminar</button></td>
                 </tr>
               ))}
             </tbody>
@@ -63,8 +79,6 @@ export const ListaUsuarios = () => {
           <p>No hay usuarios registrados.</p>
         )}
       </div>
-
-
     </>
   );
 };
