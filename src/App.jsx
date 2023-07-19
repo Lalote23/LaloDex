@@ -7,7 +7,6 @@ import { TeamBuilder } from "./TeamBuilder";
 import { Registro } from "./Registro";
 import { ListaUsuarios } from "./ListaUsuarios";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import Login from "./Login";
 import { LoginPage } from "./LoginPage";
 
 function App() {

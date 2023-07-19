@@ -12,40 +12,40 @@ import { ListaUsuarios } from "./ListaUsuarios";
 import { LoginPage } from "./LoginPage";
 
 
-const router = createHashRouter([
-  {
-    path:'/',
-    element: <Home/>
-  },
-  {
-    path:'/NationalDex',
-    element: <NationalDex/>
-  },
-  {
-    path:'/TeamBuilder',
-    element: <TeamBuilder/>
-  },
-  {
-    path:'/GymLeaders',
-    element: <GymLeaders/>
-  },
-  {
-    path:'/ListaUsuarios',
-    element: <ListaUsuarios/>
-  },
-  {
-    path:'/Registro',
-    element: <Registro/>
-  },
-  {
-    path:'/Login',
-    element: <LoginPage/>
-  },
-])
+// const router = createHashRouter([
+//   {
+//     path:'/',
+//     element: <Home/>
+//   },
+//   {
+//     path:'/NationalDex',
+//     element: <NationalDex/>
+//   },
+//   {
+//     path:'/TeamBuilder',
+//     element: <TeamBuilder/>
+//   },
+//   {
+//     path:'/GymLeaders',
+//     element: <GymLeaders/>
+//   },
+//   {
+//     path:'/ListaUsuarios',
+//     element: <ListaUsuarios/>
+//   },
+//   {
+//     path:'/Registro',
+//     element: <Registro/>
+//   },
+//   {
+//     path:'/Login',
+//     element: <LoginPage/>
+//   },
+// ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    {/* <RouterProvider router={router}/> */}
     <App />
   </React.StrictMode>,
 )
