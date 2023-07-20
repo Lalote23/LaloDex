@@ -1,16 +1,14 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/index.html" }
-    ],
-    "cleanUrls": true,
+  {
     "routes": [
-      { "src": "/NationalDex", "dest": "/index.html" },
-      { "src": "/TeamBuilder", "dest": "/index.html" },
-      { "src": "/GymLeaders", "dest": "/index.html" },
-      { "src": "/Registro", "dest": "/index.html" },
-      { "src": "/ListaUsuarios", "dest": "/index.html" },
-      { "src": "/Login", "dest": "/index.html" },
-      { "src": "/[^.]+", "dest": "/index.html", "status": 200 }
+      { "src": "/", "dest": "/" },
+      { "src": "/NationalDex", "dest": "/" }
+      { "src": "/TeamBuilder", "dest": "/" }
+      { "src": "/GymLeaders", "dest": "/" }
+      { "src": "/Registro", "dest": "/" }
+      { "src": "/ListaUsuarios", "dest": "/" }
+      { "src": "/Login", "dest": "/" }
+      // ....
     ]
   }
-  
+}
