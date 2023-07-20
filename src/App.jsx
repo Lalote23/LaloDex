@@ -23,42 +23,17 @@ function App() {
 
     <HashRouter>
 
-
-
-        <Link to='/' ></Link>
-        <Link to='/NationalDex'></Link>
-        <Link to='/TeamBuilder'></Link>
-        <Link to='/GymLeaders'></Link>
-        <Link to='/Registro'></Link>
-        <Link to='/ListaUsuarios'></Link>
-        <Link to='/Login'></Link>
-
-
-
-
-      <Routes>
-
-      <Route path="/" element={<Home />} />
-
-      <Route path="/NationalDex" element={<NationalDex />} />
-
-      <Route path="/TeamBuilder" element={<TeamBuilder />} />
-
-      <Route path="/GymLeaders" element={<GymLeaders />} />
-
-      <Route path="/ListaUsuarios" element={<ListaUsuarios />} />
-
-      <Route path="/Registro" element={<Registro />} />
-      
-      <Route path="/Login" element={<LoginPage />} />
-
-
-
-
-
-
-      </Routes>
-
+      <layout>
+        <switch>
+          <Route path="/" element={<Home />} />
+          <Route path="/NationalDex" element={<NationalDex />} />
+          <Route path="/TeamBuilder" element={<TeamBuilder />} />
+          <Route path="/GymLeaders" element={<GymLeaders />} />
+          <Route path="/ListaUsuarios" element={<ListaUsuarios />} />
+          <Route path="/Registro" element={<Registro />} />   
+          <Route path="/Login" element={<LoginPage />} />
+        </switch>
+      </layout>
     </HashRouter>
 
       </div>
