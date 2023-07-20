@@ -1,6 +1,16 @@
 {
     "rewrites": [
       { "source": "/(.*)", "destination": "/index.html" }
+    ],
+    "cleanUrls": true,
+    "redirects": [
+      { "source": "/NationalDex", "destination": "/NationalDex" },
+      { "source": "/TeamBuilder", "destination": "/TeamBuilder" },
+      { "source": "/GymLeaders", "destination": "/GymLeaders" },
+      { "source": "/Registro", "destination": "/Registro" },
+      { "source": "/ListaUsuarios", "destination": "/ListaUsuarios" },
+      { "source": "/Login", "destination": "/Login" }
+
     ]
   }
   
