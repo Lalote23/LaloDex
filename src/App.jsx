@@ -6,7 +6,7 @@ import { NationalDex } from "./NationalDex";
 import { TeamBuilder } from "./TeamBuilder";
 import { Registro } from "./Registro";
 import { ListaUsuarios } from "./ListaUsuarios";
-import { HashRouter, Link, Route, Routes } from 'react-router-dom';
+import { HashRouter, Link, Route, Switch } from 'react-router-dom';
 import Login from "./Login";
 import { LoginPage } from "./LoginPage";
 
@@ -23,8 +23,7 @@ function App() {
 
     <HashRouter>
 
-      <layout>
-        <switch>
+        <Switch>
           <Route path="/" element={<Home />} />
           <Route path="/NationalDex" element={<NationalDex />} />
           <Route path="/TeamBuilder" element={<TeamBuilder />} />
@@ -32,8 +31,7 @@ function App() {
           <Route path="/ListaUsuarios" element={<ListaUsuarios />} />
           <Route path="/Registro" element={<Registro />} />   
           <Route path="/Login" element={<LoginPage />} />
-        </switch>
-      </layout>
+        </Switch>
     </HashRouter>
 
       </div>
