@@ -24,7 +24,7 @@ export const AgregarLider = ({ onAgregarLider }) => {
         Region: '',
         Personaje: [],
       });
-      setPersonajeAgregado(false); // Reiniciamos el estado para permitir agregar otro personaje
+      setPersonajeAgregado(false); // Reiniciamos el estado para agregar otro personaje
     } else {
       alert('Por favor, completa todos los campos.');
     }
@@ -35,8 +35,8 @@ export const AgregarLider = ({ onAgregarLider }) => {
       const nuevoPersonaje = {
         id: nuevoLider.Personaje.length,
         texto: '',
-        Lider: '', // Cambiamos este campo para que acepte una URL en lugar de un archivo
-        Medallas: '', // Cambiamos este campo para que acepte una URL en lugar de un archivo
+        Lider: '', 
+        Medallas: '', 
       };
       setNuevoLider({
         ...nuevoLider,
@@ -84,7 +84,7 @@ export const AgregarLider = ({ onAgregarLider }) => {
           </label>
           <br />
           <label>
-            URL de la imagen del líder: {/* Cambiamos el campo de entrada para aceptar una URL */}
+            URL de la imagen del líder: 
             <input
               type="text"
               name="Lider"
@@ -101,7 +101,7 @@ export const AgregarLider = ({ onAgregarLider }) => {
           )}
           <br />
           <label>
-            URL de la imagen de la medalla: {/* Cambiamos el campo de entrada para aceptar una URL */}
+            URL de la imagen de la medalla: 
             <input
               type="text"
               name="Medallas"

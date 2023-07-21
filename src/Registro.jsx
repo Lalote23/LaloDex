@@ -11,12 +11,12 @@ export const Registro = () => {
   const handleRegistro = (e) => {
     e.preventDefault();
 
-    // Crear un objeto con los valores del formulario
+    // Valores del formulario
     const usuario = {
       nombreUsuario,
       correoElectronico,
       contrasena,
-    };
+    }
 
     // Almacenar el objeto en el localStorage
     localStorage.setItem(`usuariosRegistrados_${correoElectronico}`, JSON.stringify(usuario));

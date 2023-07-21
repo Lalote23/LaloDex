@@ -27,7 +27,7 @@ export const ListaUsuarios = () => {
   useEffect(() => {
     const registrosLocalStorage = Object.entries(localStorage);
 
-    // Filtrar solo los usuarios registrados en el LocalStorage
+    // Filtrar solo los usuarios registrados 
     const usuariosLocalStorage = registrosLocalStorage
       .filter(([key]) => key.startsWith('usuariosRegistrados_'))
       .map(([, registro]) => JSON.parse(registro));

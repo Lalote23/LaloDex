@@ -13,7 +13,7 @@ export const Agregar = () => {
     JSON.parse(localStorage.getItem('medallaImages')) || []
   );
 
-  // Función para guardar los datos en el LocalStorage cada vez que se actualicen
+  // Guardar los datos en el LocalStorage cada vez que se actualicen
   useEffect(() => {
     localStorage.setItem('lideres', JSON.stringify(lideres));
     localStorage.setItem('liderImages', JSON.stringify(liderImages));
@@ -22,9 +22,10 @@ export const Agregar = () => {
 
   // Función para manejar la acción de agregar un líder
   const handleAgregarLiderFunc = (nuevoLider) => {
-    // Agregar el nuevo líder al estado de líderes
+
+    // Agregar el nuevo líder 
     setLideres([...lideres, nuevoLider]);
-    // Agregar las imágenes seleccionadas para el líder actual al estado de imágenes
+    // Agregar las imágenes seleccionadas para el líder actual 
     setLiderImages([...liderImages, ...nuevoLider.Personaje.map((personaje) => personaje.Lider)]);
     setMedallaImages([...medallaImages, ...nuevoLider.Personaje.map((personaje) => personaje.Medallas)]);
   };
