@@ -9,6 +9,7 @@ import { ListaUsuarios } from "./ListaUsuarios";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Login from "./Login";
 import { LoginPage } from "./LoginPage";
+import { Agregar } from "./Agregar_lider"
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
       
       <Route path="/Login" element={<LoginPage />} />
 
+      <Route path="/Agregar" element={<Agregar />} />
 
 
 

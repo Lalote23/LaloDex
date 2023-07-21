@@ -1,0 +1,112 @@
+.AgregarLider{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.TituloPropuesta{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;    
+}
+
+.TituloSugerencia{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.BotonAgregar{
+    column-count: 2;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+
+.ListaLider{
+    border-top: 1px solid white;
+}
+
+
+input{
+    margin-left: 10px;
+}
+
+
+.Bold{
+    font-weight: bold;
+}
+
+.ListaLider{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Espaciado{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Propuesta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: #dddcdce3;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  height: 80px;
+}
+
+
+.Eliminar{
+    width: 20%;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #878787;
+  box-shadow: rgba(151, 151, 151, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

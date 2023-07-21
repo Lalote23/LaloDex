@@ -25,11 +25,15 @@ export const ListaUsuarios = () => {
   ];
 
   useEffect(() => {
-    const registros = Object.values(localStorage);
-    const usuariosLocalStorage = registros.map((registro) => JSON.parse(registro));
+    const registrosLocalStorage = Object.entries(localStorage);
 
-    // Agregar los usuarios del localStorage a la lista de usuarios
-    setUsuarios(usuariosLocalStorage.concat(usuariosAdicionales));
+    // Filtrar solo los usuarios registrados en el LocalStorage
+    const usuariosLocalStorage = registrosLocalStorage
+      .filter(([key]) => key.startsWith('usuariosRegistrados_'))
+      .map(([, registro]) => JSON.parse(registro));
+
+    // Combinar usuarios registrados con usuarios adicionales
+    setUsuarios([...usuariosLocalStorage, ...usuariosAdicionales]);
   }, []);
 
   const eliminarUsuario = (index) => {

@@ -19,7 +19,8 @@ export const Registro = () => {
     };
 
     // Almacenar el objeto en el localStorage
-    localStorage.setItem(correoElectronico, JSON.stringify(usuario));
+    localStorage.setItem(`usuariosRegistrados_${correoElectronico}`, JSON.stringify(usuario));
+
 
     // Limpiar los campos del formulario
     setNombreUsuario('');

@@ -1,4 +1,4 @@
-button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.BotonCierre) {
+button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.BotonCierre):not(.button-28) {
     position: relative;
     width: 150px;
     height: 60px;
@@ -54,11 +54,11 @@ button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.
     }
   }
   
-  button:hover .pika {
+  button:hover .pika:not(.button-28) {
     top: 90%;
   }
   
-  button:hover .pokeball {
+  button:hover .pokeball:not(.button-28) {
     animation: none;
     transform: scale(0);
   }
@@ -107,7 +107,7 @@ button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.
     left: 75%;
   }
   
-  button:hover .pword, button:hover .pword2 {
+  button:hover .pword, button:hover .pword2:not(.button-28) {
     opacity: 1;
   }
   
@@ -166,7 +166,7 @@ button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.
 
 
 
-  button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.BotonCierre){
+  button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.BotonCierre):not(.button-28){
     padding: 15px 25px;
     border: unset;
     border-radius: 15px;
@@ -185,15 +185,15 @@ button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.
    
 
    
-   button:hover {
+   button:hover:not(.button-28) {
     color: #7b7b7b;
    }
 
-   button:hover:not(.box) {
+   button:hover:not(.box):not(.button-28) {
     color: #a09595;
    }
    
-   button:hover::before {
+   button:hover::before:not(.button-28) {
     width: 100%;
    }
 
@@ -284,7 +284,7 @@ button:not(.box):not(.Anterior):not(.Siguiente):not(.BotonAdd):not(.totop):not(.
     transition: .3s transform linear, .3s height linear .5s;
   }
   
-  button {
+  button:not(.button-28) {
     text-decoration: none;
     cursor: pointer;
     outline: none;
