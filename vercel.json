@@ -1,14 +1,12 @@
 {
-  {
-    "routes": [
-      { "src": "/", "dest": "/" },
-      { "src": "/NationalDex", "dest": "/" }
-      { "src": "/TeamBuilder", "dest": "/" }
-      { "src": "/GymLeaders", "dest": "/" }
-      { "src": "/Registro", "dest": "/" }
-      { "src": "/ListaUsuarios", "dest": "/" }
-      { "src": "/Login", "dest": "/" }
-      // ....
-    ]
-  }
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/NationalDex", "dest": "/" },
+    { "src": "/TeamBuilder", "dest": "/" },
+    { "src": "/GymLeaders", "dest": "/" },
+    { "src": "/Registro", "dest": "/" },
+    { "src": "/ListaUsuarios", "dest": "/" },
+    { "src": "/Login", "dest": "/" }
+
+  ]
 }
