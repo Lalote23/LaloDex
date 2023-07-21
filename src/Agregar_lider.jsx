@@ -96,7 +96,7 @@ export const Agregar = () => {
                   </li>
                 ))}
               </ul>
-              <img className='Eliminar' src='media/dex/Pokes/icons8-minus-100.png' onClick={() => handleEliminarLider(index)}/>
+              <img className='Eliminar' src='media/dex/Pokes/icons8-minus-100.png' alt='Quitar' title='Quitar' onClick={() => handleEliminarLider(index)}/>
             </li>
 
           ))}

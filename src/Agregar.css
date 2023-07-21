@@ -93,6 +93,7 @@ input{
 
 .Eliminar{
     width: 20%;
+    cursor: pointer;
 }
 
 .button-28:disabled {
