@@ -11,7 +11,6 @@ import Login from "./Login";
 import { LoginPage } from "./LoginPage";
 import Agregar from "./Agregar_lider";
 
-
 function App() {
   return (
     <div className="App">
@@ -34,8 +33,8 @@ function App() {
         <Link to='/Registro'></Link>
         <Link to='/ListaUsuarios'></Link>
         <Link to='/Login'></Link>
-        <Link to='/Agregar'>Agregar</Link>
-
+        <Link to='/ALider'>ALider</Link>
+        
 
 
 
@@ -56,9 +55,7 @@ function App() {
       
       <Route path="/Login" element={<LoginPage />} />
 
-      <Route path="/Agregar" element={<Agregar /> } />
-
-    
+      <Route path="/ALider" element={<Agregar />} />
 
 
 
