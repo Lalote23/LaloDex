@@ -1317,6 +1317,7 @@ const filteredDevicePaldea = Device.RegionDevice[8].imagenes.filter((imagen) =>
                     {...imagen}
                     className="Carrousel-imgJohto"
                     style={{ width: `${(100 / filteredImagesPaldea.length / 1.7880794702)}%` }}
+                    loading="lazy"
                   />
                 ))}
               </div>
