@@ -25,6 +25,15 @@ function App() {
 
 
 
+        <Link to='/' ></Link>
+        <Link to='/NationalDex'></Link>
+        <Link to='/TeamBuilder'></Link>
+        <Link to='/GymLeaders'></Link>
+        <Link to='/Registro'></Link>
+        <Link to='/ListaUsuarios'></Link>
+        <Link to='/Login'></Link>
+
+
 
 
       <Routes>
