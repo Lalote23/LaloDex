@@ -55,7 +55,7 @@ function App() {
       
       <Route path="/Login" element={<LoginPage />} />
 
-      <Route path="/ALider" element={<Agregar />} />
+      <Route path="/AddLider" element={<Agregar />} />
 
 
 
