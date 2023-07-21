@@ -33,7 +33,7 @@ function App() {
         <Link to='/Registro'></Link>
         <Link to='/ListaUsuarios'></Link>
         <Link to='/Login'></Link>
-        <Link to='/ALider'>ALider</Link>
+        <Link to='/AddLider'></Link>
         
 
 
