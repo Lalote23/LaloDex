@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import "./Login.css"
+import { Link } from 'react-router-dom';
+
 
 export const Login = ({usuariosAdicionales}) => {
   const [correoElectronico, setCorreoElectronico] = useState('');
@@ -41,7 +43,31 @@ export const Login = ({usuariosAdicionales}) => {
 
   if (isLoggedIn) {
     return <> <p className='Inicio'>¡Bienvenido Profesor!</p> 
-    <div className='PikaDiv'><img className='PikaCumple' src="media/dex/Pokes/Pika.png" alt="Pika Cumple" /></div>
+    <div className='PikaDiv'>
+    
+    <Link to='/ListaUsuarios'>
+    <button className='ProfBoton Tamaño'>
+    Consultar Usuarios
+    </button>
+    </Link>
+
+      <img className='PikaCumple' src="media/dex/Pokes/Pika.png" alt="Pika Cumple" />
+    
+    <Link to='/AddLider'>
+      <button className='ProfBoton'>
+    Agregar lider de <br></br>
+    gimnasio
+      </button>
+    </Link>
+    
+    </div>
+
+    <footer className='N64'>
+      <button className='ProfBoton red'>START</button>
+      <button className='ProfBoton green'>B</button>
+      <button className='ProfBoton blue'>A</button>
+      <button className='ProfBoton yellow'>△</button>
+    </footer>
     </>
   }
 
